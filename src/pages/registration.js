@@ -17,6 +17,13 @@ const RegistrationPage = () => {
         <label>Message:</label>
         <textarea name="message" />
       </div>
+      <div>
+        <label>Vendor Type</label>
+          <input type="radio" id="html" name="fav_language" value="HTML" />
+  <label for="html">Vendor</label>
+  <input type="radio" id="css" name="fav_language" value="CSS" />
+  <label for="css">Artist</label>
+      </div>
       <button type="submit">Send</button>
     </form>
 </Layout>
