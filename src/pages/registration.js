@@ -20,9 +20,12 @@ const RegistrationPage = () => {
       <div>
         <label>Vendor Type</label>
           <input type="radio" id="html" name="fav_language" value="HTML" />
-  <label for="html">Vendor</label>
+  <label for="Vendor Type">Business</label>
   <input type="radio" id="css" name="fav_language" value="CSS" />
-  <label for="css">Artist</label>
+  <label for="Vendor Type">Artist</label>
+      </div>
+      <div>
+          <input type="file" multiple={true} accept="image/*" name="file" />
       </div>
       <button type="submit">Send</button>
     </form>
