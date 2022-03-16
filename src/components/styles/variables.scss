@@ -1,0 +1,83 @@
+$dark001: #281416;
+$dark002: #3e3a3a;
+$green001: #187145;
+$green002: #20965c;
+$green003: #26b26d;
+$red001: #d61628;
+$red002: #fc4455;
+$red003: #811620;
+$red004: #f3dbdd;
+$red005: #fcf4f5;
+$yellow001: #ffe315;
+$yellow002: #fed016;
+$yellow003: #fec315;
+$yellow004: #ffae12;
+$yellow005: #fe9a11;
+$white001: #fbfbfb;
+$white002: #ffffff;
+
+@mixin brand001 {
+    font-size: 36px;
+    font-family: "Basteleur";
+    font-weight: bolder;
+    font-style: normal;
+    text-decoration: none;
+}
+
+@mixin brand002 {
+    font-size: 24.863977432250977px;
+    font-family: "Basteleur";
+    font-weight: bolder;
+    font-style: normal;
+    text-decoration: none;
+}
+
+@mixin h1 {
+    font-size: 32px;
+    font-family: "Avenir Next";
+    text-decoration: none;
+}
+
+@mixin h2 {
+    font-size: 24px;
+    font-family: "Avenir Next";
+    font-weight: bolder;
+    font-style: normal;
+    text-decoration: none;
+}
+
+@mixin body001 {
+    font-size: 16px;
+    font-family: "Avenir Next";
+    font-weight: normal;
+    font-style: normal;
+    line-height: 140%;
+    text-decoration: none;
+}
+
+@mixin h3 {
+    font-size: 20px;
+    font-family: "Avenir Next";
+    text-decoration: none;
+}
+
+@mixin innerShadow {
+    box-shadow: 0px 0px 4px 1px #3e3a3a;
+}
+
+@mixin dropShadow {
+    box-shadow: -1px 1px 4px #3e3a3a;
+}
+
+
+h1 {
+    @include h1;
+}
+
+h2 {
+    @include h2;
+}
+
+p, label, input, button {
+    @include body001;
+}

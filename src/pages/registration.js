@@ -1,9 +1,10 @@
 import * as React from "react"
+import Layout from "../components/layout"
 
 const RegistrationPage = () => {
   return (
 
-<>
+<Layout>
     <h1>Contact</h1>
 
     <form name="Contact Form" method="POST" data-netlify="true">
@@ -18,7 +19,7 @@ const RegistrationPage = () => {
       </div>
       <button type="submit">Send</button>
     </form>
-</>
+</Layout>
 
   )
 }
