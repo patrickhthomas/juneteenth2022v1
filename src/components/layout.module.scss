@@ -6,3 +6,7 @@
     padding: 0 1rem;
     background-color: $green003;
 }
+
+button[class~='paypal-button-number-1'] {
+    display: none;
+}
