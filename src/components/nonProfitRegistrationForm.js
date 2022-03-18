@@ -1,16 +1,40 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import PaypalButton from "../components/paypalButton"
+import { navigate } from "gatsby"
 import * as styles from "../components/nonProfitRegistrationForm.module.scss"
+
+
+function encode(data) {
+  return Object.keys(data)
+    .map(
+      (key) =>
+        encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+    )
+    .join("&");
+}
+
+const handleSubmit = (event) => {
+  event.preventDefault();
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: encode({
+      "form-name": event.target.getAttribute("name"),
+      ...name,
+    }),
+  })
+    .then(() => navigate("/thank-you/"))
+    .catch((error) => alert(error));
+};
 
 const NonProfitRegstrationForm = () => {
     return (
         
         <>
         <h1>Non-Profit Vendor Registration</h1>
-        
-        <form className={styles.form} name="non-profit-vendor-registration" method="POST" data-netlify="true">
-            <input type="hidden" name="non-profit-vendor-registration" value="non-profit-vendor-registration" />
+        <form className={styles.form} name="non-profit-vendor-registration" method="POST" data-netlify="true" onSubmit={handleSubmit}>
+            <input type="hidden" name="form-name" value="non-profit-vendor-registration" />
             <section className={styles.formSection}>
             <h2>Contact Info</h2>
             <div className={styles.input__short}>
