@@ -10,7 +10,7 @@ const NonProfitRegstrationForm = () => {
         <h1>Non-Profit Vendor Registration</h1>
         
         <form className={styles.form} name="non-profit-vendor-registration" method="POST" data-netlify="true">
-            <input type="hidden" name="non-profit-vendor-registration" value="Non-Profit Vendor Registration" />
+            <input type="hidden" name="non-profit-vendor-registration" value="non-profit-vendor-registration" />
             <section className={styles.formSection}>
             <h2>Contact Info</h2>
             <div className={styles.input__short}>
