@@ -9,7 +9,7 @@ const NonProfitRegstrationForm = () => {
         <>
         <h1>Non-Profit Vendor Registration</h1>
         
-        <form className={styles.form} name="Contact Form" method="POST" data-netlify="true">
+        <form className={styles.form} name="non-profit-vendor-registration" method="POST" data-netlify="true">
             <input type="hidden" name="non-profit-vendor-registration" value="Non-Profit Vendor Registration" />
             <section className={styles.formSection}>
             <h2>Contact Info</h2>
