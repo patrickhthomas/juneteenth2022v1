@@ -1,6 +1,21 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.yourdomain.tld`,
+    title: 'Juneteenth Freedom Celebration 2022',
+      menuLinks:[
+        {
+          name:'Home',
+          link:'/'
+        },
+        {
+          name:'Get Involved',
+          link:'/get-involved'
+        },
+        {
+          name:'registrationV2',
+          link:'/registrationV2'
+        }
+      ]
   },
   plugins: [{
     resolve: 'gatsby-plugin-google-analytics',

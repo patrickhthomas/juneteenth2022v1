@@ -1,12 +1,18 @@
-@import "../components/styles/variables.scss";
+@import "../components/styles/normalize.scss";
+
+html {
+    background-color: $dark001;
+    overflow-x: hidden;
+}
 
 .main {
     margin: 0 auto;
-    max-width: 650;
-    padding: 0 1rem;
-    background-color: $green003;
+    width: 100%;
+    padding: 0;
 }
 
-button[class~='paypal-button-number-1'] {
-    display: none;
+.container {
+    padding: 1em;
+    margin: 1em;
+    color: $white001;
 }
