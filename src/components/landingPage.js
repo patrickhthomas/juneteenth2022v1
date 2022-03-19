@@ -1,6 +1,5 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import PaypalButton from "../components/paypalButton"
 import { navigate } from "gatsby"
 import HeaderLogo from '../images/header-logo.svg'
 import PrimaryButton from "./buttons/primaryButton"
@@ -11,7 +10,8 @@ import { StaticImage } from "gatsby-plugin-image"
 
 
 const LandingPage = () => {
-    const newPath='/get-involved'
+    const newPath='/vendor-landing'
+    const donatePath='/donate'
     return (
         
         <div className={styles.container}>
@@ -33,7 +33,7 @@ const LandingPage = () => {
             <div className={styles.donationText}>
                 <h2>Make a donation, become a sponsor.</h2>
                 <p>Make a contribution to our inaugural Juneteenth Celebration Fund, and help us ensure that this event is a success for years to come.</p>
-                <PrimaryButton path={newPath}>Learn More</PrimaryButton>
+                <PrimaryButton path={donatePath}>Learn More</PrimaryButton>
             </div>
             <div className={styles.sponsoredBy}>
                 <StaticImage src='../images/owiesWhiteLogo.svg' alt='Odyssey World International Logo' />

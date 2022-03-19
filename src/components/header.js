@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import * as headerStyles from "./header.module.scss"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
-import HeaderLogo from '../images/header-logo.svg'
+import HeaderLogo from '../images/tower.svg'
 
 
 
@@ -13,7 +13,9 @@ const { menuLinks, siteTitle } = useSiteMetadata()
     className={headerStyles.container}
   >
           <nav className={headerStyles.nav}>
-              <img className={headerStyles.headerLogo} src={HeaderLogo} />
+              <Link to='/' className={headerStyles.headerLogo}>
+                <img src={HeaderLogo} />
+              </Link>
             <ul className={headerStyles.links}>
               {menuLinks.map(link => (
                 <li

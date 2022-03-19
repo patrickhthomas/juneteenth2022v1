@@ -1,0 +1,46 @@
+@import "../styles/normalize.scss";
+
+.form {
+    display: grid;
+    grid-template-rows: auto repeat(auto);
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+}
+
+.formSection {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5em;
+}
+
+@mixin input {
+        display: grid;
+        grid-auto-rows: auto;
+        grid-template-columns: 1fr;
+        grid-gap: .25em;
+        max-width: 650px;
+}
+
+.formSection h2 {
+    margin-bottom: 0;
+}
+
+.input__short {
+    @include input;
+}
+
+.input__long {
+    @include input;
+}
+
+.input__checkbox {
+    @include input;
+}
+
+.checkBoxGroup {
+    display: flex;
+    flex-flow: row nowrap;
+    grid-gap: 1em;
+    align-items: center;
+}

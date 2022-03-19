@@ -8,12 +8,12 @@ module.exports = {
           link:'/'
         },
         {
-          name:'Get Involved',
-          link:'/get-involved'
+          name:'Vendor Info',
+          link:'/vendor-landing'
         },
         {
-          name:'registrationV2',
-          link:'/registrationV2'
+          name:'Donate',
+          link:'/donate'
         }
       ]
   },

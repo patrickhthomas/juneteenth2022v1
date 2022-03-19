@@ -1,13 +1,14 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import PaypalButton from "../components/paypalButton"
-import NonProfitRegstrationForm from "../components/nonProfitRegistrationForm"
+import PaypalBusiness from "../components/business/paypalBusiness"
 
 const RegistrationPage = () => {
   return (
 
 <Layout>
-    <NonProfitRegstrationForm />
+    <h1>Pay Registration Fees</h1>
+
+    <PaypalBusiness />
 </Layout>
 
   )

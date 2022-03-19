@@ -1,14 +1,13 @@
 import * as React from "react"
-import Layout from "../components/layout"
-import PaypalButton from "../components/paypalButton"
+import Layout from "../layout"
 import { navigate } from "gatsby"
-import PrimaryButton from "./buttons/primaryButton"
-import * as styles from "../components/nonProfitRegistrationForm.module.scss"
+import PrimaryButton from "../buttons/primaryButton"
+import * as styles from "../foodTruck/foodTruckRegistrationForm.module.scss"
 
 
 
 
-const NonProfitRegstrationForm = () => {
+const FoodTruckRegistrationForm = () => {
 
       const handleSubmit = (event) => {
     // Prevent the default onSubmit behavior
@@ -20,16 +19,16 @@ const NonProfitRegstrationForm = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
     })
       // On success, redirect to the custom success page using Gatsby's `navigate` helper function
-      .then(() => navigate("/registrationV2"))
+      .then(() => navigate("/non-profit-payment"))
       // On error, show the error in an alert
       .catch(error => alert(error));
   };
     return (
         
         <>
-        <h1>Non-Profit Vendor Registration</h1>
-        <form className={styles.form} name="non-profit-vendor-registration" method="POST" data-netlify="true" onSubmit={handleSubmit}>
-            <input type="hidden" name="form-name" value="non-profit-vendor-registration" />
+        <h1>Food Truck Registration</h1>
+        <form className={styles.form} name="food-truck-vendor-registration" method="POST" data-netlify="true" onSubmit={handleSubmit}>
+            <input type="hidden" name="form-name" value="food-truck-vendor-registration" />
             <section className={styles.formSection}>
             <h2>Contact Info</h2>
             <div className={styles.input__short}>
@@ -52,11 +51,11 @@ const NonProfitRegstrationForm = () => {
             <section className={styles.formSection}>
             <h2>Business Info</h2>
             <div className={styles.input__short}>
-                <label for="Business-Name">Business or Organization Name</label>
-                <input type="text" name="Business-Name"/>
+                <label for="Food-Truck-Name">Business or Organization Name</label>
+                <input type="text" name="Food-Truck-Name"/>
             </div>
             <div className={styles.input__long}>
-                <label for="description">What kind of products/materials will you be selling or handing out?</label>
+                <label for="description">What kind of food are you selling?</label>
                 <textarea name="description"/>
             </div>
             <div className={styles.input__short}>
@@ -92,4 +91,4 @@ const NonProfitRegstrationForm = () => {
         )
     }
     
-    export default NonProfitRegstrationForm
+    export default FoodTruckRegistrationForm
