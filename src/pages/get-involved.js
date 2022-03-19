@@ -8,7 +8,6 @@ const RegistrationPage = () => {
 
 <Layout>
     <NonProfitRegstrationForm />
-    <PaypalButton />
 </Layout>
 
   )

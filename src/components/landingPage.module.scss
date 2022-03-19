@@ -49,10 +49,20 @@ h2 {
     'h';
 }
 
-.karen {
+
+
+
+
+@media screen and (max-width: $small-break) {
+.image {
+    @include fullWidth;
+}
+.image__karen {
+    @include fullWidth;
     max-height: 20em;
 }
 
+}
 @media screen and (min-width: $small-break) {
 
     .container {

@@ -9,11 +9,26 @@ import * as styles from "../components/nonProfitRegistrationForm.module.scss"
 
 
 const NonProfitRegstrationForm = () => {
+
+      const handleSubmit = (event) => {
+    // Prevent the default onSubmit behavior
+    event.preventDefault();
+    // POST the encoded form with the content-type header that's required for a text submission
+    // Note that the header will be different for POSTing a file
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    })
+      // On success, redirect to the custom success page using Gatsby's `navigate` helper function
+      .then(() => navigate("/registrationV2"))
+      // On error, show the error in an alert
+      .catch(error => alert(error));
+  };
     return (
         
         <>
         <h1>Non-Profit Vendor Registration</h1>
-        <form className={styles.form} name="non-profit-vendor-registration" method="POST" data-netlify="true">
+        <form className={styles.form} name="non-profit-vendor-registration" method="POST" data-netlify="true" onSubmit={handleSubmit}>
             <input type="hidden" name="form-name" value="non-profit-vendor-registration" />
             <section className={styles.formSection}>
             <h2>Contact Info</h2>
@@ -70,7 +85,7 @@ const NonProfitRegstrationForm = () => {
             </div>
             </section>
             
-            <PrimaryButton type="submit">Send</PrimaryButton>
+            <PrimaryButton type="submit">Proceed To Payment</PrimaryButton>
         </form>
         </>
         

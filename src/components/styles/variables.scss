@@ -106,6 +106,15 @@ font-family: 'Bebas Neue';
     text-transform: uppercase;
 }
 
+@mixin fullWidth {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;   
+}
+
 @mixin innerShadow {
     box-shadow: inset 0px 0px 4px 1px #3e3a3a42;
 }
