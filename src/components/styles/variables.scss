@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&display=swap');
 
 $dark001: #201C1D;
 $dark002: #3e3a3a;
@@ -53,21 +53,6 @@ button:active {
     transform: scale(0.99);
 }
 
-@mixin primaryButton {
-    width: 12em;
-    height: 3em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @include body001;
-    background-color: $green001;
-    border-radius: 4px;
-    color: $white002;
-    font-family: 'Nunito';
-    font-weight: 600;
-    font-size: 18px;
-    text-transform: uppercase;
-}
 
 
 @mixin brand001 {
@@ -90,7 +75,7 @@ button:active {
 
 @mixin h1 {
     font-size: 32px;
-    font-family: "Nunito";
+    font-family: 'Bebas Neue';
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
@@ -98,7 +83,7 @@ button:active {
 
 @mixin h2 {
     font-size: 24px;
-    font-family: "Nunito";
+    font-family: 'Bebas Neue';
     font-weight: 500;
     font-style: normal;
     text-decoration: none;
@@ -107,7 +92,7 @@ button:active {
 
 @mixin body001 {
     font-size: 16px;
-    font-family: "Nunito";
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: normal;
     font-style: normal;
     line-height: 140%;
@@ -116,7 +101,7 @@ button:active {
 
 @mixin h3 {
     font-size: 20px;
-    font-family: "Nunito";
+font-family: 'Bebas Neue';
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -130,6 +115,22 @@ button:active {
 }
 
 $border-radius: 4px;
+
+@mixin primaryButton {
+    width: 100%;
+    max-width: 18em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include body001;
+    background-color: $green001;
+    border-radius: 4px;
+    color: $white002;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
 
 h1 {
