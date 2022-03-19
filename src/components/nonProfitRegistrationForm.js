@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import PaypalButton from "../components/paypalButton"
 import { navigate } from "gatsby"
+import PrimaryButton from "./buttons/primaryButton"
 import * as styles from "../components/nonProfitRegistrationForm.module.scss"
 
 
@@ -69,7 +70,7 @@ const NonProfitRegstrationForm = () => {
             </div>
             </section>
             
-            <button type="submit">Send</button>
+            <PrimaryButton type="submit">Send</PrimaryButton>
         </form>
         </>
         
