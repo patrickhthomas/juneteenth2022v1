@@ -25,6 +25,7 @@ h2 {
 .vendorText {
     display: flex;
     flex-flow: column nowrap;
+    grid-area: d;
 }
 
 .donationText {
@@ -47,6 +48,10 @@ h2 {
     'f'
     'g'
     'h';
+}
+
+.blurb {
+    display: none; //REMOVE
 }
 
 
@@ -81,8 +86,13 @@ h2 {
     .blurb {
         grid-area: d;
     }
+
+    .vendorText {
+        grid-area: d;
+    }
+
     .donationText {
-        grid-area: h;
+        grid-area: e;
     }
     
     .karen {

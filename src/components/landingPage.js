@@ -18,11 +18,11 @@ const LandingPage = () => {
             <div className={styles.heroOne}>
                 <h1 className={styles.title}><img alt="Juneteenth Freedom Celebration" src={HeaderLogo}></img></h1>
                 <h1 className={styles.subtitle}>Join us for Vancouver, Washington's first annual Juneteenth Celebration.</h1>
-                <h2>Friday June 17th from 1pm to 7pm at Esther Short Park</h2>
+                <h3>Friday June 17th from 1pm to 7pm at Esther Short Park</h3>
             </div>
             <StaticImage className={styles.image} src="../images/vancouver.jpeg" alt="downtown vancouver, wasthington" />
             <p className={styles.blurb}>From 1pm to 7pm, Esther Short Park will be filled with African American art, music, culture, history, games and fabulous cuisine. This event will be a family-friendly, alcohol-free and fun free event. For vendors, it is a one of a kind opportunity to reach a broad demographic of potential customers and show your support and respect for the African American community. Whether you have a business, arts practice, operate a food truck or serve at a nonprofit, we want you to be part of our Inaugural Juneteenth Celebration of Freedom!</p>
-            <StaticImage className={styles.image} src="../images/corpuschristi.jpeg" alt="Six women in a carriage decorated with flowers. Old sepia toned photograph from 1913" />
+            <StaticImage className={styles.blurb} src="../images/corpuschristi.jpeg" alt="Six women in a carriage decorated with flowers. Old sepia toned photograph from 1913" />
             <div className={styles.vendorText}>
                 <h2>Interested in Being a Vendor?</h2>
                 <p>For vendors, this is a one of a kind opportunity to reach a broad demographic of potential customers and show your support and respect for the African American community. Whether you have a business, arts practice, operate a food truck or serve at a nonprofit, we want you to be part of our Inaugural Juneteenth Celebration of Freedom!</p>

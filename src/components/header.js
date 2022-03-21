@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import * as headerStyles from "./header.module.scss"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
-import HeaderLogo from '../images/tower.svg'
+import HeaderLogo from '../images/header-logo.svg'
 
 
 

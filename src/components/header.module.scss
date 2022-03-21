@@ -1,10 +1,14 @@
 @import "../components/styles/normalize.scss";
 
 .container {
+    width: 100%;
     max-width: 100%;
+    max-height: 6em;
     background-color: $dark004;
     display: flex;
     flex-flow: row wrap;
+    opacity: .8;
+    z-index: 3;
 }
 
 .links {
@@ -16,8 +20,9 @@
 .headerLogo {
     display: flex;
     max-width: 10em;
-    max-height: 6em;
+    max-height: 4em;
     align-content: start;
+    place-self: center;
 }
 
 .nav {

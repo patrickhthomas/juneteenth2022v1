@@ -1,8 +1,11 @@
 @import "../components/styles/normalize.scss";
 
 html {
-    background-color: $dark001;
+    background: url(../images/bgTexture.jpg), url(../images/bgTexture2.jpg), $red002;
+    background-blend-mode: multiply, multiply;
     overflow-x: hidden;
+    background-attachment: scroll, fixed;
+    background-size: contain, cover, contain;
 }
 
 
