@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import { navigate } from "gatsby"
-import HeaderLogo from '../images/header-logo.svg'
+import HeroLogo from '../images/header-logo.svg'
 import PrimaryButton from "./buttons/primaryButton"
 import * as styles from "../components/landingPage.module.scss"
 import OwiesLogo from "../images/owiesWhiteLogo.svg"
@@ -16,7 +16,7 @@ const LandingPage = () => {
         
         <div className={styles.container}>
             <div className={styles.heroOne}>
-                <h1 className={styles.title}><img alt="Juneteenth Freedom Celebration" src={HeaderLogo}></img></h1>
+                <h1 className={styles.title}><img alt="Juneteenth Freedom Celebration" src={HeroLogo}></img></h1>
                 <h1 className={styles.subtitle}>Join us for Vancouver, Washington's first annual Juneteenth Celebration.</h1>
                 <h3>Friday June 17th from 1pm to 7pm at Esther Short Park</h3>
             </div>

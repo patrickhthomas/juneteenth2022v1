@@ -3,15 +3,12 @@
 html {
     background: 
     url(../images/bgFront.jpg),
-    url(../images/bgBack.jpg),
-    url(../images/bgTexture3.jpg),
-    $red002;
+    url(../images/bgBack.jpg);
     overflow-x: hidden;
-    background-attachment: fixed, scroll, fixed;
-    background-size: contain, contain, contain;
+    background-attachment: fixed, scroll;
+    background-size: contain, contain;
     background-blend-mode: darken,
-    normal,
-    multiply;
+    normal;
 }
 
 
