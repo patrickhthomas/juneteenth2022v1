@@ -2,13 +2,10 @@
 
 html {
     background: 
-    url(../images/bgFront.jpg),
     url(../images/bgBack.jpg);
     overflow-x: hidden;
-    background-attachment: fixed, scroll;
-    background-size: contain, contain;
-    background-blend-mode: darken,
-    normal;
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 
@@ -36,3 +33,19 @@ html {
 }
 
 }
+
+@media screen and (min-width: $medium-break) {
+
+
+}
+
+@media screen and (min-width: $large-break) {
+
+    .container {
+        padding: 0em 1em 1em 1em;
+        margin: auto;
+        max-width: 1060px;
+    }
+
+}
+
