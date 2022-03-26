@@ -1,12 +1,12 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
-import LandingPage from "../components/landingPage"
+import ComingSoon from "../components/comingSoon"
 
 const IndexPage = () => {
   return (
     <Layout>
-      <LandingPage />
+      <ComingSoon />
 
     </Layout>
   )

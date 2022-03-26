@@ -19,7 +19,7 @@ export default function Layout({ children }) {
           ]}
         >
         </Helmet>
-        <Header />
+
         <div className={layoutStyles.main}>
             
             <div className={layoutStyles.container}>
