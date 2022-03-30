@@ -28,23 +28,23 @@
 }
 .nav {
     max-width: 1060px;
-    display: flex;
-    flex-flow: row nowrap;
-    height: 10em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
     margin: auto;
+    
 }
 
 .footerIcon img {
-    position: relative;
     max-height: 5em;
     max-width: 5em;
-    right: 0;
 }
 
 .footerIcon {
-    display: flex;
+    display: grid;
     max-height: 5em;
-    place-items: end;
+    place-content: end;
+    max-width: 100%;
 }
 
 .owies {
@@ -53,13 +53,18 @@
     align-content: end;
     color: white;
     padding-right: 1em;
+    padding: 1em;
+    max-width: 16em;
 }
 
 .links {
     list-style: none;
-    padding: 1em;
     margin: 0;
     height: 6em;
+    padding: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
 }
 
 .headerLogo {
@@ -73,11 +78,7 @@
 .headerLogo img {
     width: 3em;
 }
-.nav {
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-}
+
 
 
 
