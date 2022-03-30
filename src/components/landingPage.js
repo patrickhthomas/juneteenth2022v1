@@ -12,7 +12,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 
 const LandingPage = () => {
-    const newPath='/vendor-landing'
+    const newPath='/vendors'
     const donatePath='/donate'
     return (
         

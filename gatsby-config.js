@@ -9,7 +9,7 @@ module.exports = {
         },
         {
           name:'Vendor Application',
-          link:'/vendor-landing'
+          link:'/vendors'
         },
         {
           name:'Donate',
