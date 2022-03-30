@@ -57,6 +57,14 @@ body {
   margin: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
 /**
  * Add the correct display in IE 9-.
  */

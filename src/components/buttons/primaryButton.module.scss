@@ -9,3 +9,9 @@
 .button a {
     display: flex;
 }
+
+.button:hover {
+    background-color: $green003;
+    transform: scale(1.05);
+    transition: all .5s;
+}

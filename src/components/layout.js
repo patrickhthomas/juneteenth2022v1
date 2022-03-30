@@ -29,8 +29,9 @@ export default function Layout({ children }) {
             <div className={layoutStyles.container}>
                 {children}
             </div>
+         <Footer />
         </div>
-        <Footer />
+
         </>
     )
 }

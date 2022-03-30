@@ -1,26 +1,25 @@
 import React from "react"
 import { Link } from "gatsby"
-import * as headerStyles from "./footer.module.scss"
+import * as footerStyles from "./footer.module.scss"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 import TowerLogoStar from '../images/TreeLogo.svg'
+import { StaticImage } from "gatsby-plugin-image"
 
 
 
 export default function Footer () {
 const { menuLinks, siteTitle } = useSiteMetadata()
   return(
-  <footer
-    className={headerStyles.container}
-  >
-          <nav className={headerStyles.nav}>
-              <Link to='/' className={headerStyles.headerLogo}>
-                <img src={TowerLogoStar} />
-              </Link>
-            <ul className={headerStyles.links}>
+  <footer className={footerStyles.container}>
+    <div className={footerStyles.divider1}></div>
+    <div className={footerStyles.divider2}></div>
+    <div className={footerStyles.divider3}></div>
+          <nav className={footerStyles.nav}>
+            <ul className={footerStyles.links}>
               {menuLinks.map(link => (
                 <li
                   key={link.name}
-                  className={headerStyles.links}
+                  className={footerStyles.link}
                 >
                   <Link style={{ color: `white` }} to={link.link}>
                     {link.name}
@@ -28,6 +27,10 @@ const { menuLinks, siteTitle } = useSiteMetadata()
                 </li>
               ))}
             </ul>
+            <div className={footerStyles.owies}>
+              <p>Organized by Odyssey World International Education Services</p>
+              <StaticImage className={footerStyles.footerIcon} src='../images/owiesWhiteLogo.svg' />
+            </div>
           </nav>
   </footer>
 
