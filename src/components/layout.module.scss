@@ -8,6 +8,19 @@ html {
     background-size: contain;
 }
 
+.bannerContainer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.banner {
+    width: 100%;
+    margin: auto;
+
+}
+
 
 .main {
     margin: 0 auto;
@@ -35,7 +48,9 @@ html {
 }
 
 @media screen and (min-width: $medium-break) {
-
+.banner {
+    width: 80%;
+}
 
 }
 
@@ -45,6 +60,9 @@ html {
         padding: 0em 1em 1em 1em;
         margin: auto;
         max-width: 1060px;
+    }
+    .banner {
+        width: 60%;
     }
 
 }

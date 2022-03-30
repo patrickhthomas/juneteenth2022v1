@@ -5,6 +5,10 @@ h2 {
     margin-bottom: 0;
 }
 
+.banner {
+
+}
+
 .title {
     width: 100%;
     display: flex;
@@ -14,9 +18,7 @@ h2 {
     width: 100%;
 }
 
-.heroOne {
-    grid-area: b;
-}
+
 
 .sponsoredBy img {
     width: 100%;
@@ -61,6 +63,24 @@ h2 {
 @media screen and (max-width: $small-break) {
 .image {
     @include fullWidth;
+}
+
+.image1 {
+    @include fullWidth;
+    grid-area: a;
+}
+
+.heroOne {
+    grid-area: a;
+    z-index: 3;
+    align-self: end;
+    background-color: rgba(0, 0, 0, 0.571);
+    @include fullWidth;
+}
+
+.subtitle {
+    padding-left:1em;
+    padding-right: 1em;
 }
 .image__karen {
     @include fullWidth;

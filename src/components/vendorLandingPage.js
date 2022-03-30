@@ -6,33 +6,24 @@ import PrimaryButton from "./buttons/primaryButton"
 import * as styles from "../components/vendorLandingPage.module.scss"
 import OwiesLogo from "../images/owiesWhiteLogo.svg"
 import { StaticImage } from "gatsby-plugin-image"
+import ExternalButton from './buttons/externalButton'
 
 
 
 const LandingPage = () => {
-    const businessPath='/business-registration'
-    const nonProfitPath='/non-profit-registration'
-    const foodTruckPath='/food-truck-registration'
+    const businessPath='https://nuu47cce.paperform.co'
+    const foodTruckPath='https://btl8ipvy.paperform.co'
     return (
         
         <div className={styles.container}>
+            <p>Applications for vendors and food trucks are currently being accepted. </p>
             <div className={styles.vendorText}>
-                <h2>For Businesses and Artists</h2>
-                <h3>Registration Fee: $100</h3>
-                <PrimaryButton path={businessPath}>Business Registration</PrimaryButton>
+                <h2>Vendor Application</h2>
+                <ExternalButton path={businessPath}>Business Registration</ExternalButton>
             </div>
             <div className={styles.vendorText}>
-                <h2>For Non-Profits</h2>
-                <h3>Registration Fee: $50</h3>
-                <PrimaryButton path={nonProfitPath}>Non-Profit Registration</PrimaryButton>
-            </div>
-            <div className={styles.vendorText}>
-                <h2>For Food Trucks</h2>
-                <h3>Registration Fee: $100</h3>
-                <PrimaryButton path={foodTruckPath}>Food Truck Registration</PrimaryButton>
-            </div>
-            <div className={styles.sponsoredBy}>
-                <StaticImage src='../images/owiesWhiteLogo.svg' alt='Odyssey World International Logo' />
+                <h2>Food Trucks Application</h2>
+                <ExternalButton path={foodTruckPath}>Food Truck Registration</ExternalButton>
             </div>
         </div>
         

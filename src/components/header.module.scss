@@ -3,28 +3,35 @@
 .container {
     width: 100%;
     max-width: 100%;
-    max-height: 6em;
-    background-color: $dark004;
-    display: flex;
+    height: 6em;
+    background-color:black;
+    display: block;
     flex-flow: row wrap;
     opacity: .8;
     z-index: 3;
+}
+
+.container nav {
+    display: flex;
+    height: 6em;
 }
 
 .links {
     list-style: none;
     padding: 1em;
     margin: 0;
+    height: 6em;
 }
 
 .headerLogo {
     display: flex;
-    max-width: 10em;
-    max-height: 4em;
     align-content: start;
     place-self: center;
 }
 
+.headerLogo img {
+    width: 3em;
+}
 .nav {
     display: flex;
     flex: 1;

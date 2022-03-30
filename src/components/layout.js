@@ -3,6 +3,7 @@ import * as layoutStyles from "./layout.module.scss"
 import Header from "./header"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 import Helmet from "react-helmet"
+import { StaticImage } from "gatsby-plugin-image"
 
 
 
@@ -19,8 +20,10 @@ export default function Layout({ children }) {
           ]}
         >
         </Helmet>
-        <Header />
+
         <div className={layoutStyles.main}>
+                  <div className={layoutStyles.bannerContainer}><StaticImage className={layoutStyles.banner} src='../images/BannerXL.jpg' alt="Juneteenth Freedom Celebration" /></div>
+        <Header />
             
             <div className={layoutStyles.container}>
                 {children}

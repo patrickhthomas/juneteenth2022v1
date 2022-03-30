@@ -8,7 +8,7 @@ module.exports = {
           link:'/'
         },
         {
-          name:'Vendor Info',
+          name:'Vendor Application',
           link:'/vendor-landing'
         },
         {
