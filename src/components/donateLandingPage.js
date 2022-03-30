@@ -31,7 +31,7 @@ to greater community understanding, help form new friendships and build on the i
 welcoming atmosphere that continues to develop as Southwest Washington’s population grows.</p>
 
 
-                <StaticImage className={styles.tshirt} src="../images/tshirt.jpg" alt="A woman in a white t shirt picking up an iced coffee from an outdoor coffee vendor" />
+                <StaticImage className={styles.tshirt} src="../images/TShirtAd.jpg" alt="A woman in a white t shirt picking up an iced coffee from an outdoor coffee vendor" />
             <div>
             <h3>Bronze - $1000</h3>
             <p>Our Bronze donors will have their organization name and featured on the back of our official Juneteenth 2022 t-shirts.</p>
