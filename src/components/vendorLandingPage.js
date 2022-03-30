@@ -16,13 +16,15 @@ const LandingPage = () => {
     return (
         
         <div className={styles.container}>
-            <p>Applications for vendors and food trucks are currently being accepted. </p>
-            <div className={styles.vendorText}>
-                <h2>Vendor Application</h2>
-                <ExternalButton path={businessPath}>Business Registration</ExternalButton>
+            <h1>Vendor Application</h1>
+            <div className={styles.block}>
+            <p>Applications are currently open for vendor spaces at our 2022 Juneteenth Freedom Celebration. This is a wonderful opportunity to sell your products, get exposure for your brand, and engage with the community. Space is limited, so don't hesitate!</p>
+            <StaticImage className={styles.image} src="../images/foodTruck.jpeg" alt="A woman in a white t shirt picking up an iced coffee from an outdoor coffee vendor" />
             </div>
             <div className={styles.vendorText}>
-                <h2>Food Trucks Application</h2>
+                <ExternalButton path={businessPath}>Vendor Application</ExternalButton>
+            </div>
+            <div className={styles.vendorText}>
                 <ExternalButton path={foodTruckPath}>Food Truck Registration</ExternalButton>
             </div>
         </div>

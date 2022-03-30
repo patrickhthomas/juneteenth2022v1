@@ -2,4 +2,10 @@
 
 .button {
     @include primaryButton;
+    display: flex;
+    max-width: 10em;
+}
+
+.button a {
+    display: flex;
 }

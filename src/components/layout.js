@@ -1,6 +1,7 @@
 import React from "react"
 import * as layoutStyles from "./layout.module.scss"
 import Header from "./header"
+import Footer from "./footer"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 import Helmet from "react-helmet"
 import { StaticImage } from "gatsby-plugin-image"
@@ -29,6 +30,7 @@ export default function Layout({ children }) {
                 {children}
             </div>
         </div>
+        <Footer />
         </>
     )
 }

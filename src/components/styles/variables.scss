@@ -76,7 +76,7 @@ button:active {
 }
 
 @mixin h1 {
-    font-size: 32px;
+    font-size: 46px;
     font-family: 'Bebas Neue';
     text-decoration: none;
     text-transform: uppercase;
@@ -84,7 +84,7 @@ button:active {
 }
 
 @mixin h2 {
-    font-size: 24px;
+    font-size: 32px;
     font-family: 'Bebas Neue';
     font-weight: 500;
     font-style: normal;
@@ -108,6 +108,10 @@ font-family: 'Bebas Neue';
     text-transform: uppercase;
 }
 
+
+@mixin panGradient {
+    background: linear-gradient(180deg, #201C1D 50%, #201C1D 84.99%, #FEC315 85%, #FEC315 89.99%, #D61628 90%, #D61628 94.99%, #20965C 95%, #20965C 100%);
+}
 @mixin fullWidth {
         width: 100vw;
         position: relative;
@@ -134,12 +138,12 @@ $border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    @include body001;
+    @include h2;
     background-color: $green001;
     border-radius: 4px;
     color: $white002;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 22px;
     text-transform: uppercase;
 }
 
