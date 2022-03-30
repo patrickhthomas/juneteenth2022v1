@@ -8,7 +8,8 @@
     display: block;
     flex-flow: row wrap;
     opacity: .8;
-    z-index: 3;
+    z-index: 1000;
+    position: relative;
 }
 
 .nav {
@@ -23,6 +24,62 @@
     padding: 1em;
     margin: 0;
     height: 6em;
+    display: none;
+    transform: scale(1.1);
+    transition: all .2s ease;
+}
+
+
+.smallLinksExpanded {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr;
+    justify-content: end;
+    list-style: none;
+    padding: 1em;
+    margin: 0;
+    height: 6em;
+    z-index: 1000;
+    background-color: $green001;
+}
+
+.smallLinksCollapsed {
+    display: none;
+}
+
+.smallLink {
+    text-align: right;
+}
+
+.menuButton {
+    color: $white001;
+    align-self: center;
+    padding-right: .5em;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.menuButton:hover {
+    color: $white001;
+    align-self: center;
+    border: none;
+    padding-right: .5em;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.menuButton:active {
+    color: $white001;
+    border: none;
+    align-self: center;
+    padding-right: .5em;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.menuButton:visited {
+    color: $white001;
+    border: none;
+    align-self: center;
+    padding-right: .5em;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .headerLogo {
@@ -48,9 +105,18 @@
 @media screen and (min-width: $small-break) {
 
     .links {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    place-items: center;
+    }
+
+    .smallLinks {
+        display: none;
+    }
+
+    .menuButton {
+        display: none;
     }
 
 }
