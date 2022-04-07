@@ -23,7 +23,7 @@ export default function Layout({ children }) {
         </Helmet>
 
         <div className={layoutStyles.main}>
-                  <div className={layoutStyles.bannerContainer}><StaticImage className={layoutStyles.banner} src='../images/BannerXL.jpg' alt="Juneteenth Freedom Celebration" /></div>
+                  <div className={layoutStyles.bannerContainer}><StaticImage className={layoutStyles.banner} src='../images/Bannerv3.jpg' alt="Juneteenth Freedom Celebration" /></div>
         <Header />
             
             <div className={layoutStyles.container}>

@@ -18,15 +18,42 @@ const LandingPage = () => {
         
         <div className={styles.container}>
             <div className={styles.heroOne}>
-                <h1 className={styles.subtitle}>Join us for a day of Music, Art, Fun, and Games at the first annual Juneteenth Freedom Celebration.</h1>
+                <h1 className={styles.subtitle}>2022 Juneteenth Freedom Celebration.</h1>
             </div>
             <StaticImage className={styles.image1} src="../images/africanDrum1.jpeg" alt="downtown vancouver, wasthington" />
-            <p className={styles.blurb}>Juneteenth is a day of joyous celebration, marking the end of slavery in the United States. Although only recognized as a federal holiday in 2021, communities have been coming together since 1865 to commemorate the occasion. Join us in the park on June 17th for a day of live music, delicious food, local artists and vendors, and much more. All community members are welcome and encouraged to participate, there will be something for everyone to enjoy!</p>
+            <p className={styles.blurb}>Juneteenth is the holiday that marks when  American soldiers, by order of President Lincoln,  went to Texas to free the last African American slaves in June of 1865. It signifies America fulfilling its commitment to liberty. Although our backgrounds may differ, our histories are intertwined.  So let us take this day to stand united.</p>
             <div className={styles.SVGs}>
-                <img className={styles.svg} src={DJ} alt="A woman in a white t shirt picking up an iced coffee from an outdoor coffee vendor" />
-                <img className={styles.svg} src={Band} alt="A woman in a white t shirt picking up an iced coffee from an outdoor coffee vendor" />
-                <img className={styles.svg} src={Vendor} alt="A woman in a white t shirt picking up an iced coffee from an outdoor coffee vendor" />
+<p>Join with us to commemorate the abolishment of slavery,  recognize the contributions of local African Americans,  and celebrate the freedoms that strengthen our community.</p>
                 </div>
+            <div className={styles.newSection}>
+            <div>
+                <h2>Freedom in Expression</h2>
+                <p>Black Visual and Performing Artists</p>
+            </div>
+            <div>
+                <h2>Freedom to Access Health Resources</h2>
+                <p>Mobile Vaccine Clinic, Resource Tables from Black Health care providers, Health Education Resources for conditions that disproportionately impact the Black community</p>
+            </div>
+            <div>
+                <h2>Freedom to Access Financial Opportunities</h2>
+                <p>Representation from Black-owned businesses, black owned food trucks, educational resources for financial literacy, vendor tables about employment opportunities</p>
+            </div>
+            <div>
+                <h2>Freedom to Access Higher Education</h2>
+                <p>Representation by Black University students (clubs, fraternity groups, Resources about Scholarships, Information Tables about Educational Opportunities</p>
+            </div>
+            <div>
+                <h2>Freedom to Celebrate our Heritage</h2>
+                <p>Black history display</p>
+            </div>
+            <div>
+                <h2>Freedom to Particpate in Civic Engagement</h2>
+                <p>Voting Registration booths, presence of  political action groups, Community organizations, etc </p>
+            </div>
+            <h3>Here’s to life, liberty, and the pursuit of happiness for all</h3>
+            </div>
+
+
             <div className={styles.vendorText}>
                 <h2>Interested in Being a Vendor?</h2>
                 <p>For vendors, this is a one of a kind opportunity to reach a broad demographic of potential customers and show your support and respect for the African American community. Whether you have a business, arts practice, operate a food truck or serve at a nonprofit, we want you to be part of our Inaugural Juneteenth Celebration of Freedom!</p>
