@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
 
 $dark001: #201C1D;
 $dark002: #3e3a3a;
@@ -8,7 +7,7 @@ $dark004: #161415;
 $green001: #187145;
 $green002: #20965c;
 $green003: #26b26d;
-$red001: #d61628;
+$red001: #D93633;
 $red002: #fc4455;
 $red003: #811620;
 $red004: #f3dbdd;
@@ -20,6 +19,9 @@ $yellow004: #ffae12;
 $yellow005: #fe9a11;
 $white001: #fbfbfb;
 $white002: #ffffff;
+$blue001: #253C8E;
+$blue002: #1a2a61;
+$blue003: #4265d7;
 
 $small-break: 650px;
 $medium-break: 800px;
@@ -86,8 +88,8 @@ button {
 
 @mixin body001 {
     font-size: 16px;
-    font-family: 'Merriweather', sans-serif;
-    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-style: normal;
     line-height: 140%;
     text-decoration: none;
@@ -102,7 +104,7 @@ font-family: 'Lato';
 
 
 @mixin panGradient {
-    background: linear-gradient(180deg, #201C1D 50%, #201C1D 84.99%, #FEC315 85%, #FEC315 89.99%, #D61628 90%, #D61628 94.99%, #20965C 95%, #20965C 100%);
+    background: linear-gradient(180deg, #201C1D 50%, #201C1D 84.99%, $blue001 85%, $blue001 89.99%, $red001 90%, $red001 94.99%, $yellow001 95%, $yellow001 100%);
 }
 @mixin fullWidth {
         width: 100vw;

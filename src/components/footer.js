@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import * as footerStyles from "./footer.module.scss"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
-import TowerLogoStar from '../images/TreeLogo.svg'
+
 import { StaticImage } from "gatsby-plugin-image"
 
 
