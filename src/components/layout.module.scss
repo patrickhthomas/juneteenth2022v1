@@ -7,8 +7,22 @@ html {
     background-size: contain;
 }
 
-.bannerContainer {
-    background-color: black;
+.bannerContainerLG {
+
+    display: none;
+    justify-content: center;
+    height: auto;
+}
+
+.bannerContainerMD {
+
+    display: none;
+    justify-content: center;
+    height: auto;
+}
+
+.bannerContainerSM {
+
     display: flex;
     justify-content: center;
     height: auto;
@@ -59,12 +73,27 @@ html {
     color: $white001;
 }
 
+.bannerContainerSM {
+    display: none;
+}
+
 .bannerSM {
     display: none;
 }
 
+.bannerContainerMD {
+    display: flex;
+}
 .bannerMD {
     display: block;
+}
+
+.bannerContainerLG {
+    display: none;
+}
+
+.bannerLG {
+    display: none;
 }
 
 }
@@ -73,14 +102,24 @@ html {
 .banner {
     width: 100%;
 }
+.bannerContainerSM {
+    display: none;
+}
+
 .bannerSM {
     display: none;
 }
 
+.bannerContainerMD {
+    display: none;
+}
 .bannerMD {
     display: none;
 }
 
+.bannerContainerLG {
+    display: flex;
+}
 .bannerLG {
     display: block;
 }
@@ -97,6 +136,26 @@ html {
     .banner {
         width: 100%;
     }
+.bannerContainerSM {
+    display: none;
+}
 
+.bannerSM {
+    display: none;
+}
+
+.bannerContainerMD {
+    display: none;
+}
+.bannerMD {
+    display: none;
+}
+
+.bannerContainerLG {
+    display: flex;
+}
+.bannerLG {
+    display: block;
+}
 }
 
