@@ -1,8 +1,7 @@
 @import "../components/styles/normalize.scss";
 
 html {
-    background: 
-    url(../images/bgBack.jpg);
+    background-color: $blue004;
     overflow-x: hidden;
     background-attachment: fixed;
     background-size: contain;
@@ -15,10 +14,22 @@ html {
     height: auto;
 }
 
-.banner {
+.bannerLG {
     width: 100%;
     margin: auto;
+    display: none;
 
+}
+
+.bannerMD {
+    width: 100%;
+    margin: auto;
+    display: none;
+}
+
+.bannerSM {
+    width: 100%;
+    margin: auto;
 }
 
 
@@ -48,11 +59,30 @@ html {
     color: $white001;
 }
 
+.bannerSM {
+    display: none;
+}
+
+.bannerMD {
+    display: block;
+}
+
 }
 
 @media screen and (min-width: $medium-break) {
 .banner {
     width: 100%;
+}
+.bannerSM {
+    display: none;
+}
+
+.bannerMD {
+    display: none;
+}
+
+.bannerLG {
+    display: block;
 }
 
 }
