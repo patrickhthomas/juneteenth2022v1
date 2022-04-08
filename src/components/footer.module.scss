@@ -29,17 +29,12 @@
     
 }
 
-.footerIcon {
-    max-width: 12em;
-}
 
 .owies {
-    display: flex;
-    flex-flow: column nowrap;
-    align-content: end;
     color: white;
     padding: 1em;
 }
+
 
 .links {
     list-style: none;
@@ -51,24 +46,21 @@
     justify-content: space-between;
 }
 
-.headerLogo {
-    display: flex;
-    align-content: start;
-    place-self: center;
-    padding-left: 2em;
-    height: 6em;
+
+
+
+
+
+
+
+@media screen and (min-width: $medium-break) {
+
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 }
-
-.headerLogo img {
-    width: 3em;
+.footerIcon img {
+   object-fit: contain;
 }
-
-
-
-
-
-@media screen and (min-width: $small-break) {
-
-
-
 }

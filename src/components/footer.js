@@ -29,8 +29,11 @@ const { menuLinks, siteTitle } = useSiteMetadata()
             </ul>
             <div className={footerStyles.owies}>
               <p>Organized by Odyssey World International Education Services</p>
-              <StaticImage className={footerStyles.footerIcon} alt="Odyssey World International Logo" src='../images/owies.png' />
-              <StaticImage className={footerStyles.footerIcon} alt="City of Vancouver Logo" src='../images/vancity.png' />
+              <div className={footerStyles.icons}>
+              <StaticImage objectFit="contain" className={footerStyles.footerIcon} alt="Odyssey World International Logo" src='../images/owies.png' />
+              <StaticImage objectFit="contain" className={footerStyles.footerIcon} alt="City of Vancouver Logo" src='../images/vancity.png' />
+              <StaticImage objectFit="contain" className={footerStyles.footerIcon} alt="City of Vancouver Parks and Recreation Logo" src='../images/parksandrec.png' />
+              </div>
             </div>
           </nav>
   </footer>
