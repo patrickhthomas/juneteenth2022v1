@@ -11,7 +11,33 @@ h2 {
     display: flex;
 }
 
+.bandSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .5em;
+}
 
+.band {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 1em;
+}
+
+.bandImage {
+    max-width: 10em;
+}
+
+.bandInfo {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.bandInfo a {
+    color: $yellow004;
+    text-decoration: underline;
+    font-weight: 700;
+}
 
 
 
@@ -60,7 +86,9 @@ h2 {
 
 @media screen and (min-width: $large-break) {
 
-
+.newSection {
+    grid-gap: 4em;
+}
 
 
 }
