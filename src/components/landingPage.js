@@ -40,31 +40,90 @@ const LandingPage = () => {
                 </div>
                 </div>
             </div>
-            <div>
-                <h3>Freedom to Access Health Resources</h3>
-                <p>Mobile Vaccine Clinic, Resource Tables from Black Health care providers, Health Education Resources for conditions that disproportionately impact the Black community</p>
-                <StaticImage src="../images/health.jpg" alt="A young black woman wearing dark blue scrubs standing in front of a medical clinic with a stethescope around her neck."/>
+
+            <div className={styles.freedomContainer}>
+            <h3>Freedom to Access Health Resources</h3>
+            <div className={styles.freedom}>
+                <div className={styles.freedomThin}>
+                <StaticImage className={styles.freedomImage} src="../images/health.jpg" alt="A young black woman wearing dark blue scrubs standing in front of a medical clinic with a stethescope around her neck."/>
+                </div>
+                <div className={styles.freedomThick}>
+                <p className={styles.freedomText}>Mobile Vaccine Clinic, Resource Tables from Black Health care providers, Health Education Resources for conditions that disproportionately impact the Black community</p>
+                <div className={styles.thickImage}>
+                <StaticImage objectFit='contain' className={styles.freedomImage2} src="../images/health.jpg" alt="A young black woman wearing dark blue scrubs standing in front of a medical clinic with a stethescope around her neck."/>
+                <StaticImage objectFit='contain' className={styles.freedomImage3} src="../images/health.jpg" alt="A young black woman wearing dark blue scrubs standing in front of a medical clinic with a stethescope around her neck."/>
+                </div>
+                </div>
             </div>
-            <div>
-                <h3>Freedom to Access Financial Opportunities</h3>
-                <p>Representation from Black-owned businesses, black owned food trucks, educational resources for financial literacy, vendor tables about employment opportunities</p>
-                <StaticImage src="../images/financial.jpg" alt="A white paper sign with black text taped to a business' front door. It reads 'black owned business'"/>
             </div>
-            <div>
-                <h3>Freedom to Access Higher Education</h3>
-                <p>Representation by Black University students (clubs, fraternity groups, Resources about Scholarships, Information Tables about Educational Opportunities</p>
-                <StaticImage src="../images/education.jpg" alt="A young man stands in front of a whiteboard, teaching a room of college students."/>
+
+            <div className={styles.freedomContainer}>
+            <h3>Freedom to Access Financial Opportunities</h3>
+            <div className={styles.freedom}>
+                <div className={styles.freedomThin}>
+                <StaticImage className={styles.freedomImage} src="../images/financial.jpg" alt="A white paper sign with black text taped to a business' front door. It reads 'black owned business'"/>
+                </div>
+                <div className={styles.freedomThick}>
+                <p className={styles.freedomText}>Representation from Black-owned businesses, black owned food trucks, educational resources for financial literacy, vendor tables about employment opportunities</p>
+                <div className={styles.thickImage}>
+                <StaticImage className={styles.freedomImage} src="../images/financial.jpg" alt="A white paper sign with black text taped to a business' front door. It reads 'black owned business'"/>
+                <StaticImage className={styles.freedomImage} src="../images/financial.jpg" alt="A white paper sign with black text taped to a business' front door. It reads 'black owned business'"/>
+                </div>
+                </div>
             </div>
-            <div>
-                <h3>Freedom to Celebrate our Heritage</h3>
-                <p>Black history display</p>
-                <StaticImage src="../images/heritage.jpg" alt="A collection of old photographs stacked on top of one another."/>
             </div>
-            <div>
-                <h3>Freedom to Particpate in Civic Engagement</h3>
-                <p>Voting Registration booths, presence of  political action groups, Community organizations, etc </p>
-                <StaticImage src="../images/civic.jpg" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
+
+            <div className={styles.freedomContainer}>
+            <h3>Freedom to Access Higher Education</h3>
+            <div className={styles.freedom}>
+                <div className={styles.freedomThin}>
+                <StaticImage className={styles.freedomImage} src="../images/education.jpg" alt="A young man stands in front of a whiteboard, teaching a room of college students."/>
+                </div>
+                <div className={styles.freedomThick}>
+                <p className={styles.freedomText}>Representation by Black University students (clubs, fraternity groups, Resources about Scholarships, Information Tables about Educational Opportunities.</p>
+                <div className={styles.thickImage}>
+                <StaticImage className={styles.freedomImage} src="../images/education.jpg" alt="A young man stands in front of a whiteboard, teaching a room of college students."/>
+                <StaticImage className={styles.freedomImage} src="../images/education.jpg" alt="A young man stands in front of a whiteboard, teaching a room of college students."/>
+                </div>
+                </div>
             </div>
+            </div>
+
+            <div className={styles.freedomContainer}>
+            <h3>Freedom to Celebrate our Heritage</h3>
+            <div className={styles.freedom}>
+                
+                <div className={styles.freedomThin}>
+                
+                <StaticImage className={styles.freedomImage} src="../images/heritage.jpg" alt="A collection of old photographs stacked on top of one another."/>
+                </div>
+                <div className={styles.freedomThick}>
+                <p className={styles.freedomText}>A section of the park will be dedicated to a display that celebrates the rich heritage and culture of Black history in America. Not only is the intent to educate about the past, but to celebrate where we are today, and invite the community to come together in support of an even brighter future.</p>
+                <div className={styles.thickImage}>
+                <StaticImage className={styles.freedomImage} src="../images/heritage.jpg" alt="A collection of old photographs stacked on top of one another."/>
+                <StaticImage className={styles.freedomImage} src="../images/heritage.jpg" alt="A collection of old photographs stacked on top of one another."/>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div className={styles.freedomContainer}>
+            <h3>Freedom to Particpate in Civic Engagement</h3>
+            <div className={styles.freedom}>
+                <div className={styles.freedomThin}>
+                <StaticImage className={styles.freedomImage} src="../images/civic.jpg" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
+                </div>
+                <div className={styles.freedomThick}>
+                <p className={styles.freedomText}>Voting Registration booths, presence of  political action groups, Community organizations, etc.</p>
+                <div className={styles.thickImage}>
+                <StaticImage className={styles.freedomImage} src="../images/civic.jpg" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
+                <StaticImage className={styles.freedomImage} src="../images/civic.jpg" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
+                </div>
+                </div>
+            </div>
+            </div>
+
+
             <h3>Here’s to life, liberty, and the pursuit of happiness for all</h3>
             </div>
 

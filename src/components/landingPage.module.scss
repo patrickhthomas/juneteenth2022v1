@@ -55,10 +55,7 @@ h2 {
 }
 @media screen and (min-width: $small-break) {
 .subtitle {
-    max-width: 20em;
-}
-.bandP {
-    margin-top: -1em;
+    max-width: 100%;
 }
 
 
@@ -80,5 +77,34 @@ h2 {
     grid-gap: 4em;
 }
 
+.freedom {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 1em;
+    max-height: 24em;
+}
+
+.freedom img {
+    border-radius: .5em;
+}
+.freedomImage {
+ flex-grow: 1;
+}
+.freedomThin {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.freedomThick {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.thickImage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5em;
+}
 
 }
