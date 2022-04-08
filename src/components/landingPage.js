@@ -29,14 +29,14 @@ const LandingPage = () => {
                 <StaticImage className={styles.bandImage} src="../images/jujuba.jpg" alt="A band member from Jujuba playing a hand drum"/>
                 <div className={styles.bandInfo}>
                     <p>Ridiculously danceable Afrobeat and Juju music from Portland, Oregon.</p>
-                    <a href="https://jujuba.org/home">Learn More about Jujuba</a>
+                    <a href="https://jujuba.org/home" target="_blank">Learn More about Jujuba</a>
                 </div>
                 </div>
                 <div className={styles.band}>
                 <StaticImage className={styles.bandImage} src="../images/meezilini.jpg" alt="An album cover by Meezilini Tha Messenger titled Straight Outta Darkness"/>
                 <div className={styles.bandInfo}>
                     <p>Christian Rapper who found Jesus in a prison cell.</p>
-                    <a href="https://linktr.ee/meezilini_tha_messenger">Learn More about Meezilini Tha Messenger</a>
+                    <a href="https://linktr.ee/meezilini_tha_messenger" target="_blank">Learn More about Meezilini Tha Messenger</a>
                 </div>
                 </div>
             </div>
