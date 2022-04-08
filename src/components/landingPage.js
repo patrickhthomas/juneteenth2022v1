@@ -14,17 +14,17 @@ const LandingPage = () => {
         
         <div className={styles.container}>
             <div className={styles.heroOne}>
-                <h1 className={styles.subtitle}>About Juneteenth</h1>
+                <h1 className={styles.about}>About Juneteenth</h1>
                 <p className={styles.blurb}>Juneteenth is the holiday that marks when  American soldiers, by order of President Lincoln,  went to Texas to free the last African American slaves in June of 1865. It signifies America fulfilling its commitment to liberty. Although our backgrounds may differ, our histories are intertwined.  So let us take this day to stand united.</p>
             </div>
         
             
-           <h2>Join with us to celebrate the freedoms that strengthen our community.</h2>
+           <h2 className={styles.subtitle}>Join with us to celebrate the freedoms that strengthen our community.</h2>
 
             <div className={styles.newSection}>
             <div className={styles.bandSection}>
                 <h3>Freedom in Expression</h3>
-                <p>Don’t miss out on Jujuba and Overnight Success! We will also be featuring Christian hip hop artist Meezilini Tha Messenger.</p>
+                <p className={styles.bandP}>Don’t miss out on Jujuba and Overnight Success! We will also be featuring Christian hip hop artist Meezilini Tha Messenger.</p>
                 <div className={styles.band}>
                 <StaticImage className={styles.bandImage} src="../images/jujuba.jpg" alt="A band member from Jujuba playing a hand drum"/>
                 <div className={styles.bandInfo}>

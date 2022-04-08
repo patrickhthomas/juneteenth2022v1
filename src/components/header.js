@@ -17,9 +17,6 @@ const { menuLinks, siteTitle } = useSiteMetadata()
     className={headerStyles.container}
   >
           <nav className={headerStyles.nav}>
-              <Link to='/' className={headerStyles.headerLogo}>
-                <img src={LogoStar} />
-              </Link>
             <ul className={headerStyles.links}>
               {menuLinks.map(link => (
                 <li

@@ -22,7 +22,7 @@ $white002: #ffffff;
 $blue001: #253C8E;
 $blue002: #1a2a61;
 $blue003: #4265d7;
-$blue004: #203068;
+$blue004: #131930;
 
 $small-break: 650px;
 $medium-break: 800px;
@@ -108,7 +108,7 @@ font-family: 'Lato';
     background: linear-gradient(180deg, #201C1D 50%, #201C1D 84.99%, $blue001 85%, $blue001 89.99%, $red001 90%, $red001 94.99%, $yellow001 95%, $yellow001 100%);
 }
 @mixin solidGradient {
-    background: linear-gradient(180deg, #201C1D 50%, #201C1D 94.99%, $yellow001 95%, $yellow001 100%);
+    background: linear-gradient(180deg, $blue002 50%, $blue002 94.99%, $yellow001 95%, $yellow001 100%);
 }
 @mixin fullWidth {
         width: 100vw;

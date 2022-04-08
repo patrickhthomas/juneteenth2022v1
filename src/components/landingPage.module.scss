@@ -17,6 +17,13 @@ h2 {
     grid-gap: .5em;
 }
 
+.subtitle {
+    max-width: 20em;
+}
+.bandP {
+    margin-top: -1em;
+}
+
 .band {
     display: grid;
     grid-template-columns: auto 1fr;
