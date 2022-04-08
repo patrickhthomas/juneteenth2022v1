@@ -11,53 +11,6 @@ h2 {
     display: flex;
 }
 
-.title img {
-    width: 100%;
-}
-
-
-
-
-.vendorText {
-    display: flex;
-    flex-flow: column nowrap;
-    grid-area: g;
-    margin-top: -3em;
-}
-
-.donationText {
-    display: flex;
-    flex-flow: column nowrap;
-    grid-area: d;
-}
-
-.container {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-columns: 1fr;
-    grid-auto-rows: auto;
-    grid-template-areas: 
-    'a'
-    'b'
-    'c'
-    'd'
-    'e'
-    'f'
-    'g'
-    'h';
-}
-
-.SVGs {
-    display: flex;
-    max-width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.svg {
-max-width: 100%;
-height: 5em;
-}
 
 
 
@@ -87,71 +40,27 @@ height: 5em;
     padding-left:1em;
     padding-right: 1em;
 }
-.image__karen {
-    @include fullWidth;
-    max-height: 20em;
-}
+
 
 }
 @media screen and (min-width: $small-break) {
 
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        'a b'
-        'x x'
-        'c d'
-        'e f'
-        'g h'
-        'i i';
-    }
-    .heroOne {
-        grid-area: a;
-    }
-    .blurb {
-        grid-area: x;
-    }
 
-    .vendorText {
-        grid-area: e;
-        margin-top: 0em;
-    }
-
-    .donationText {
-        grid-area: f;
-    }
-    .image {
-        grid-area: c;
-    }
-
-    .SVGs {
-        grid-area: d;
-    }
-    .karen {
-        grid-area: g;
-    }
-    .sponsoredBy {
-        grid-area: i;
-    }
 }
 
 @media screen and (min-width: $medium-break) {
+.newSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
 
-
-    .blurb {
-        grid-area: a;
-        margin-top: 14em;
-    }
 
 }
 
 @media screen and (min-width: $large-break) {
 
 
-    .blurb {
-        grid-area: a;
-        margin-top: 12em;
-    }
+
 
 }
