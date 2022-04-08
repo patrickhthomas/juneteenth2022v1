@@ -13,19 +13,13 @@
 }
 
 
-.divider1 {
-    height: .3em;
-    background-color: $green003;
-}
+
 .divider2 {
     height: .3em;
-    background-color: $yellow003;
+    background-color: $yellow005;
 }
 
-.divider3 {
-    height: .3em;
-    background-color: $red001;
-}
+
 .nav {
     max-width: 1060px;
     display: grid;
@@ -35,29 +29,16 @@
     
 }
 
-.footerIcon img {
-    max-height: 5em;
-    max-width: 5em;
-}
-
 .footerIcon {
-    display: grid;
-    max-height: 5em;
-    place-content: end;
-    max-width: 100%;
+    max-width: 12em;
 }
 
-img {
-    width: 90px;
-}
 .owies {
     display: flex;
     flex-flow: column nowrap;
     align-content: end;
     color: white;
-    padding-right: 1em;
     padding: 1em;
-    max-width: 16em;
 }
 
 .links {
