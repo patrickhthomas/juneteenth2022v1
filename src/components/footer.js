@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import * as footerStyles from "./footer.module.scss"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
-
+import Owies from '../images/owiesWhiteLogo.svg'
 import { StaticImage } from "gatsby-plugin-image"
 
 
@@ -29,7 +29,7 @@ const { menuLinks, siteTitle } = useSiteMetadata()
             </ul>
             <div className={footerStyles.owies}>
               <p>Organized by Odyssey World International Education Services</p>
-              <StaticImage className={footerStyles.footerIcon} src='../images/owiesWhiteLogo.svg' />
+              <img className={footerStyles.footerIcon} src='../images/owiesWhiteLogo.svg' />
             </div>
           </nav>
   </footer>

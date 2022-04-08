@@ -12,7 +12,7 @@ $red002: #fc4455;
 $red003: #811620;
 $red004: #f3dbdd;
 $red005: #fcf4f5;
-$yellow001: #ffe315;
+$yellow001: #ffc415;
 $yellow002: #fed016;
 $yellow003: #fec315;
 $yellow004: #ffae12;
@@ -106,6 +106,9 @@ font-family: 'Lato';
 @mixin panGradient {
     background: linear-gradient(180deg, #201C1D 50%, #201C1D 84.99%, $blue001 85%, $blue001 89.99%, $red001 90%, $red001 94.99%, $yellow001 95%, $yellow001 100%);
 }
+@mixin solidGradient {
+    background: linear-gradient(180deg, #201C1D 50%, #201C1D 94.99%, $yellow001 95%, $yellow001 100%);
+}
 @mixin fullWidth {
         width: 100vw;
         position: relative;
@@ -133,9 +136,9 @@ $border-radius: 4px;
     justify-content: center;
     align-items: center;
     @include h2;
-    background-color: $green001;
+    background-color: $yellow005;
     border-radius: 4px;
-    color: $white002;
+    color: $dark001;
     font-weight: 500;
     font-size: 22px;
     text-transform: uppercase;

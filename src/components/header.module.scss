@@ -4,7 +4,7 @@
     width: 100%;
     max-width: 100%;
     height: 6em;
-    @include panGradient;
+    @include solidGradient;
     display: block;
     flex-flow: row wrap;
     opacity: .8;
