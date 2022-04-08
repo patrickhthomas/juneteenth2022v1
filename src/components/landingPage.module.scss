@@ -17,12 +17,7 @@ h2 {
     grid-gap: .5em;
 }
 
-.subtitle {
-    max-width: 20em;
-}
-.bandP {
-    margin-top: -1em;
-}
+
 
 .band {
     display: grid;
@@ -54,31 +49,23 @@ h2 {
     @include fullWidth;
 }
 
-.image1 {
-    @include fullWidth;
-    grid-area: a;
-}
 
-.heroOne {
-    grid-area: a;
-    z-index: 3;
-    align-self: end;
-    background-color: rgba(0, 0, 0, 0.571);
-    @include fullWidth;
-}
 
+
+}
+@media screen and (min-width: $small-break) {
+.subtitle {
+    max-width: 20em;
+}
+.bandP {
+    margin-top: -1em;
+}
 
 
 .subtitle {
     padding-left:1em;
     padding-right: 1em;
 }
-
-
-}
-@media screen and (min-width: $small-break) {
-
-
 }
 
 @media screen and (min-width: $medium-break) {
