@@ -23,7 +23,7 @@
 .links {
     list-style: none;
     padding: 1em;
-    margin: 0;
+    margin: auto;
     height: 6em;
     display: none;
     padding-bottom: 1em;
@@ -40,7 +40,7 @@
     margin: 0;
     height: 6em;
     z-index: 1000;
-    background-color: $green001;
+    background-color: $blue004;
 }
 
 .smallLinksCollapsed {

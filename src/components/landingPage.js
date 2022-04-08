@@ -14,31 +14,42 @@ const LandingPage = () => {
         
         <div className={styles.container}>
             <div className={styles.heroOne}>
+                <div>
                 <h1 className={styles.about}>About Juneteenth</h1>
                 <p className={styles.blurb}>Juneteenth is the holiday that marks when  American soldiers, by order of President Lincoln,  went to Texas to free the last African American slaves in June of 1865. It signifies America fulfilling its commitment to liberty. Although our backgrounds may differ, our histories are intertwined.  So let us take this day to stand united.</p>
+                </div>
+            <div className={styles.owies}>
+              <p>This free-to-the-public event is organized by Odyssey World International Education Services, with support from the City of Vancouver and the Vancouver Parks and Rec.</p>
+              <div className={styles.icons}>
+              <StaticImage objectFit="contain" className={styles.footerIcon} alt="Odyssey World International Logo" src='../images/owies.png' />
+              <StaticImage objectFit="contain" className={styles.footerIcon} alt="City of Vancouver Logo" src='../images/vancity.png' />
+              <StaticImage objectFit="contain" className={styles.footerIcon} alt="City of Vancouver Parks and Recreation Logo" src='../images/parksandrec.png' />
+              </div>
+            </div>
             </div>
         
             
            <h2 className={styles.subtitle}>Join with us to celebrate the freedoms that strengthen our community.</h2>
 
             <div className={styles.newSection}>
-            <div className={styles.bandSection}>
-                <h3>Freedom in Expression</h3>
-                <p className={styles.bandP}>Don’t miss out on Jujuba and Overnight Success! We will also be featuring Christian hip hop artist Meezilini Tha Messenger.</p>
-                <div className={styles.band}>
-                <StaticImage className={styles.bandImage} src="../images/jujuba.jpg" alt="A band member from Jujuba playing a hand drum"/>
-                <div className={styles.bandInfo}>
-                    <p>Ridiculously danceable Afrobeat and Juju music from Portland, Oregon.</p>
-                    <a href="https://jujuba.org/home" target="_blank">Learn More about Jujuba</a>
+
+
+            <div className={styles.freedomContainer}>
+            <h3>Freedom in Expression</h3>
+            <div className={styles.freedom}>
+                <div className={styles.freedomThin}>
+                <StaticImage className={styles.freedomImage} src="../images/jujuba.jpg" alt="A band member from Jujuba playing a hand drum"/>
+                </div>
+                <div className={styles.freedomThick}>
+                <div>
+                <p className={styles.freedomText}>Don’t miss out on <a href="https://jujuba.org/home" target="_blank">Jujuba</a> and <a href="https://www.facebook.com/overnitesuccessband" target="_blank">OverNite Success</a>! We'll also be featuring Christian hip hop artist <a href="https://linktr.ee/meezilini_tha_messenger" target="_blank">Meezilini Tha Messenger</a>, among other dancers, DJs, and performers.</p>
+                </div>
+                <div className={styles.thickImage}>
+                <StaticImage objectFit='contain' className={styles.freedomImage2} src="../images/meezilini.jpg" alt="An album cover by Meezilini Tha Messenger titled Straight Outta Darkness"/>
+                <StaticImage objectFit='contain' className={styles.freedomImage3} src="../images/overNite.png" alt="The logo for Overnite Success"/>
                 </div>
                 </div>
-                <div className={styles.band}>
-                <StaticImage className={styles.bandImage} src="../images/meezilini.jpg" alt="An album cover by Meezilini Tha Messenger titled Straight Outta Darkness"/>
-                <div className={styles.bandInfo}>
-                    <p>Christian Rapper who found Jesus in a prison cell.</p>
-                    <a href="https://linktr.ee/meezilini_tha_messenger" target="_blank">Learn More about Meezilini Tha Messenger</a>
-                </div>
-                </div>
+            </div>
             </div>
 
             <div className={styles.freedomContainer}>
@@ -50,8 +61,8 @@ const LandingPage = () => {
                 <div className={styles.freedomThick}>
                 <p className={styles.freedomText}>Mobile Vaccine Clinic, Resource Tables from Black Health care providers, Health Education Resources for conditions that disproportionately impact the Black community</p>
                 <div className={styles.thickImage}>
-                <StaticImage objectFit='contain' className={styles.freedomImage2} src="../images/health.jpg" alt="A young black woman wearing dark blue scrubs standing in front of a medical clinic with a stethescope around her neck."/>
-                <StaticImage objectFit='contain' className={styles.freedomImage3} src="../images/health.jpg" alt="A young black woman wearing dark blue scrubs standing in front of a medical clinic with a stethescope around her neck."/>
+                <StaticImage objectFit='contain' className={styles.freedomImage2} src="../images/swach.png" alt="A young black woman wearing dark blue scrubs standing in front of a medical clinic with a stethescope around her neck."/>
+                <StaticImage objectFit='contain' className={styles.freedomImage3} src="../images/swec.png" alt="A young black woman wearing dark blue scrubs standing in front of a medical clinic with a stethescope around her neck."/>
                 </div>
                 </div>
             </div>
@@ -64,10 +75,10 @@ const LandingPage = () => {
                 <StaticImage className={styles.freedomImage} src="../images/financial.jpg" alt="A white paper sign with black text taped to a business' front door. It reads 'black owned business'"/>
                 </div>
                 <div className={styles.freedomThick}>
-                <p className={styles.freedomText}>Representation from Black-owned businesses, black owned food trucks, educational resources for financial literacy, vendor tables about employment opportunities</p>
+                <p className={styles.freedomText}>Vendors will provide information on services that are related to building credit, accessing food, and homeownership, as well as other resources needed to progress towards financial success.</p>
                 <div className={styles.thickImage}>
-                <StaticImage className={styles.freedomImage} src="../images/financial.jpg" alt="A white paper sign with black text taped to a business' front door. It reads 'black owned business'"/>
-                <StaticImage className={styles.freedomImage} src="../images/financial.jpg" alt="A white paper sign with black text taped to a business' front door. It reads 'black owned business'"/>
+                <StaticImage className={styles.freedomImage} src="../images/councilForHomeless.png" alt="A white paper sign with black text taped to a business' front door. It reads 'black owned business'"/>
+                <StaticImage className={styles.freedomImage} src="../images/lulac.jpg" alt="A white paper sign with black text taped to a business' front door. It reads 'black owned business'"/>
                 </div>
                 </div>
             </div>
@@ -82,8 +93,8 @@ const LandingPage = () => {
                 <div className={styles.freedomThick}>
                 <p className={styles.freedomText}>Representation by Black University students (clubs, fraternity groups, Resources about Scholarships, Information Tables about Educational Opportunities.</p>
                 <div className={styles.thickImage}>
-                <StaticImage className={styles.freedomImage} src="../images/education.jpg" alt="A young man stands in front of a whiteboard, teaching a room of college students."/>
-                <StaticImage className={styles.freedomImage} src="../images/education.jpg" alt="A young man stands in front of a whiteboard, teaching a room of college students."/>
+                <StaticImage objectFit='contain' className={styles.freedomImage} src="../images/actso.webp" alt="A young man stands in front of a whiteboard, teaching a room of college students."/>
+                <StaticImage className={styles.freedomImage} src="../images/clarkCollege.jpg" alt="A young man stands in front of a whiteboard, teaching a room of college students."/>
                 </div>
                 </div>
             </div>
@@ -98,10 +109,10 @@ const LandingPage = () => {
                 <StaticImage className={styles.freedomImage} src="../images/heritage.jpg" alt="A collection of old photographs stacked on top of one another."/>
                 </div>
                 <div className={styles.freedomThick}>
-                <p className={styles.freedomText}>A section of the park will be dedicated to a display that celebrates the rich heritage and culture of Black history in America. Not only is the intent to educate about the past, but to celebrate where we are today, and invite the community to come together in support of an even brighter future.</p>
+                <p className={styles.freedomText}>In the stunning artistic display, called 400 years of inequality, Holly Williams and Annette Taylor will work with the young people from the Boys and Girls club to recreate a timeline that showcases the history, ingenuity, oppression and resilience of black and indigenous people in America</p>
                 <div className={styles.thickImage}>
-                <StaticImage className={styles.freedomImage} src="../images/heritage.jpg" alt="A collection of old photographs stacked on top of one another."/>
-                <StaticImage className={styles.freedomImage} src="../images/heritage.jpg" alt="A collection of old photographs stacked on top of one another."/>
+                <StaticImage className={styles.freedomImage} src="../images/columbiaPlay.svg" alt="A collection of old photographs stacked on top of one another."/>
+                <StaticImage className={styles.freedomImage} objectFit="contain" src="../images/boysAndGirls.jpg" alt="A collection of old photographs stacked on top of one another."/>
                 </div>
                 </div>
             </div>
@@ -116,8 +127,8 @@ const LandingPage = () => {
                 <div className={styles.freedomThick}>
                 <p className={styles.freedomText}>Voting Registration booths, presence of  political action groups, Community organizations, etc.</p>
                 <div className={styles.thickImage}>
-                <StaticImage className={styles.freedomImage} src="../images/civic.jpg" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
-                <StaticImage className={styles.freedomImage} src="../images/civic.jpg" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
+                <StaticImage className={styles.freedomImage} src="../images/lwv.png" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
+                <StaticImage className={styles.freedomImage} src="../images/naacp.png" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
                 </div>
                 </div>
             </div>
