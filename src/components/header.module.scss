@@ -13,8 +13,9 @@
 }
 
 .nav {
-    max-width: 1060px;
+    max-width: 1260px;
     display: flex;
+    flex: row nowrap;
     height: 6em;
     margin: auto;
 
@@ -105,10 +106,13 @@
 @media screen and (min-width: $small-break) {
 
     .links {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 3em;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
     place-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
     }
 
     .smallLinks {

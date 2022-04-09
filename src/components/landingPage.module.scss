@@ -5,6 +5,9 @@ h2 {
     margin-bottom: 0;
 }
 
+.container {
+    padding-top: 3em;
+}
 
 .title {
     width: 100%;
@@ -59,6 +62,13 @@ h2 {
 }
 
 @media screen and (min-width: $medium-break) {
+
+.CTA {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+
 .newSection {
     display: grid;
     grid-template-columns: 1fr;

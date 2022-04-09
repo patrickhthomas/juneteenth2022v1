@@ -23,9 +23,9 @@ const { menuLinks, siteTitle } = useSiteMetadata()
                   key={link.name}
                   className={headerStyles.link}
                 >
-                  <Link style={{ color: `white` }} to={link.link}>
+                  <a style={{ color: `white` }} href={link.link}>
                     {link.name}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>

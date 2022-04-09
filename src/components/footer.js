@@ -28,7 +28,7 @@ const { menuLinks, siteTitle } = useSiteMetadata()
               ))}
             </ul>
             <div className={footerStyles.owies}>
-              <p>Organized by Odyssey World International Education Services</p>
+              <p>Organized by Odyssey World International Education Services in partnership with the City of Vancouver and the Parks and Rec Dept.</p>
               <div className={footerStyles.icons}>
               <StaticImage objectFit="contain" className={footerStyles.footerIcon} alt="Odyssey World International Logo" src='../images/owies.png' />
               <StaticImage objectFit="contain" className={footerStyles.footerIcon} alt="City of Vancouver Logo" src='../images/vancity.png' />

@@ -14,6 +14,11 @@ module.exports = {
         {
           name:'Donate',
           link:'/donate'
+        },
+        {
+          name:'Volunteer',
+          target: '_blank',
+          link:'https://cwd4q7wo.paperform.co'
         }
       ]
   },

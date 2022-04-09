@@ -19,12 +19,13 @@ const LandingPage = () => {
                 <p className={styles.blurb}>Juneteenth is the holiday that marks when  American soldiers, by order of President Lincoln,  went to Texas to free the last African American slaves in June of 1865. It signifies America fulfilling its commitment to liberty. Although our backgrounds may differ, our histories are intertwined.  So let us take this day to stand united.</p>
                 </div>
             <div className={styles.owies}>
-              <p>This free-to-the-public event is organized by Odyssey World International Education Services, with support from the City of Vancouver and the Vancouver Parks and Rec.</p>
+            
               <div className={styles.icons}>
-              <StaticImage objectFit="contain" className={styles.footerIcon} alt="Odyssey World International Logo" src='../images/owies.png' />
+              <StaticImage objectFit="contain" className={styles.footerIcon} alt="Odyssey World International Logo" src='../images/owies.svg' />
               <StaticImage objectFit="contain" className={styles.footerIcon} alt="City of Vancouver Logo" src='../images/vancity.png' />
               <StaticImage objectFit="contain" className={styles.footerIcon} alt="City of Vancouver Parks and Recreation Logo" src='../images/parksandrec.png' />
               </div>
+              <p>This free-to-the-public event is organized by Odyssey World International Education Services, with support from the City of Vancouver and the Vancouver Parks and Rec.</p>
             </div>
             </div>
         
@@ -138,7 +139,7 @@ const LandingPage = () => {
             <h3>Here’s to life, liberty, and the pursuit of happiness for all</h3>
             </div>
 
-
+            <div className={styles.CTA}>
             <div className={styles.vendorText}>
                 <h2>Interested in Being a Vendor?</h2>
                 <p>For vendors, this is a one of a kind opportunity to reach a broad demographic of potential customers and show your support and respect for the African American community. Whether you have a business, arts practice, operate a food truck or serve at a nonprofit, we want you to be part of our Inaugural Juneteenth Celebration of Freedom!</p>
@@ -149,6 +150,7 @@ const LandingPage = () => {
                 <h2>Make a donation, become a sponsor.</h2>
                 <p>Make a contribution to our inaugural Juneteenth Celebration Fund, and help us ensure that this event is a success for years to come.</p>
                 <PrimaryButton path={donatePath}>Learn More</PrimaryButton>
+            </div>
             </div>
         </div>
         

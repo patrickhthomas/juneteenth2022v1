@@ -62,5 +62,11 @@
 }
 .footerIcon img {
    object-fit: contain;
+   max-height: 4em;
+}
+
+.owies p {
+    max-width: 50%;
+    padding-bottom: 2em;
 }
 }
