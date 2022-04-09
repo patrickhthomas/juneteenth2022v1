@@ -25,7 +25,7 @@ const LandingPage = () => {
               <StaticImage objectFit="contain" className={styles.footerIcon} alt="City of Vancouver Logo" src='../images/vancity.png' />
               <StaticImage objectFit="contain" className={styles.footerIcon} alt="City of Vancouver Parks and Recreation Logo" src='../images/parksandrec.png' />
               </div>
-              <p>This free-to-the-public event is organized by Odyssey World International Education Services, with support from the City of Vancouver and the Vancouver Parks and Rec.</p>
+              <p>This free-to-the-public event is organized by <a href="https://www.odysseyworld.org/" target="_blank">Odyssey World International Education Services</a>, with support from the City of Vancouver and the Vancouver Parks and Rec.</p>
             </div>
             </div>
         

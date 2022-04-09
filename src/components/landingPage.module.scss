@@ -9,19 +9,25 @@ h2 {
     padding-top: 3em;
 }
 
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
 .title {
     width: 100%;
     display: flex;
 }
 
-.freedom a {
+.freedom a, .owies a {
     color: $red005;
     text-decoration: underline;
     font-weight: 500;
     padding-bottom: 1em;
 }
 
-.freedom a:hover {
+.freedom a:hover, .owies a:hover {
     color: $yellow002;
     text-decoration: underline;
     font-weight: 500;
@@ -29,7 +35,15 @@ h2 {
     transition: all .2s;
 }
 
+.thickImage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5em;
+}
 
+.freedom {
+    padding-bottom: 2em;
+}
 
 
 @media screen and (max-width: $small-break) {
@@ -84,6 +98,7 @@ h2 {
     grid-template-columns: 2fr 3fr;
     grid-gap: 1em;
     max-height: 24em;
+    padding-bottom: 0em;
 }
 
 .freedom img {

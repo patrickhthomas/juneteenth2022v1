@@ -13,12 +13,12 @@
 }
 
 .nav {
+    width: 100%;
     max-width: 1260px;
     display: flex;
     flex: row nowrap;
     height: 6em;
     margin: auto;
-
 }
 
 .links {
@@ -30,16 +30,23 @@
     padding-bottom: 1em;
 }
 
+.links a:hover {
+    color: $yellow002;
+    text-decoration: underline;
+    font-weight: 500;
+    padding-bottom: .5em;
+    transition: all .2s;
+}
 
 .smallLinksExpanded {
     display: grid;
     position: relative;
     grid-template-columns: 1fr;
+    grid-gap: 1em;
     justify-content: end;
     list-style: none;
     padding: 1em;
     margin: 0;
-    height: 6em;
     z-index: 1000;
     background-color: $blue004;
 }
@@ -53,15 +60,16 @@
 }
 
 .menuButton {
+    width: 100%;
+    text-align: right;
+    margin: 0;
     color: $white001;
-    align-self: center;
     padding-right: .5em;
     background-color: rgba(255, 255, 255, 0);
 }
 
 .menuButton:hover {
-    color: $white001;
-    align-self: center;
+    color: $yellow001;
     border: none;
     padding-right: .5em;
     background-color: rgba(255, 255, 255, 0);
@@ -70,7 +78,6 @@
 .menuButton:active {
     color: $white001;
     border: none;
-    align-self: center;
     padding-right: .5em;
     background-color: rgba(255, 255, 255, 0);
 }
@@ -78,7 +85,6 @@
 .menuButton:visited {
     color: $white001;
     border: none;
-    align-self: center;
     padding-right: .5em;
     background-color: rgba(255, 255, 255, 0);
 }
