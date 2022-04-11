@@ -45,6 +45,9 @@ h2 {
     padding-bottom: 2em;
 }
 
+.freedom img {
+    border-radius: .5em;
+}
 
 @media screen and (max-width: $small-break) {
 .image {
@@ -101,9 +104,7 @@ h2 {
     padding-bottom: 0em;
 }
 
-.freedom img {
-    border-radius: .5em;
-}
+
 .freedomImage {
  flex-grow: 1;
 }

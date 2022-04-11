@@ -13,9 +13,14 @@ const LandingPage = () => {
     return (
         
         <div className={styles.container}>
+            <div>
+                <h1>
+                    Juneteenth Freedom Celebration, Esther Short Park - Vancouver, WA. 1pm thru 7pm - June 17th 2022.
+                </h1>
+            </div>
             <div className={styles.heroOne}>
                 <div>
-                <h1 className={styles.about}>About Juneteenth</h1>
+                <h2 className={styles.about}>About Juneteenth</h2>
                 <p className={styles.blurb}>Juneteenth is the holiday that marks when  American soldiers, by order of President Lincoln,  went to Texas to free the last African American slaves in June of 1865. It signifies America fulfilling its commitment to liberty. Although our backgrounds may differ, our histories are intertwined.  So let us take this day to stand united.</p>
                 </div>
             <div className={styles.owies}>

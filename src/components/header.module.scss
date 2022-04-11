@@ -3,13 +3,13 @@
 .container {
     width: 100%;
     max-width: 100%;
-    height: 6em;
-    @include solidGradient;
+    height: 5em;
+    background-color: $blue002;
     display: block;
-    flex-flow: row wrap;
-    opacity: .8;
+    opacity: .9;
     z-index: 1000;
-    position: relative;
+    position: sticky;
+    top: 0;
 }
 
 .nav {
@@ -17,7 +17,6 @@
     max-width: 1260px;
     display: flex;
     flex: row nowrap;
-    height: 6em;
     margin: auto;
 }
 
@@ -25,7 +24,6 @@
     list-style: none;
     padding: 1em;
     margin: auto;
-    height: 6em;
     display: none;
     padding-bottom: 1em;
 }
@@ -33,8 +31,7 @@
 .links a:hover {
     color: $yellow002;
     text-decoration: underline;
-    font-weight: 500;
-    padding-bottom: .5em;
+    font-size: 102%;
     transition: all .2s;
 }
 
@@ -106,6 +103,11 @@
     justify-content: space-between;
 }
 
+.link a {
+    color: $white001;
+    transition: all .2s;
+}
+
 
 
 
@@ -116,15 +118,16 @@
     flex-flow: row nowrap;
     width: 100%;
     justify-content: space-between;
-    place-items: center;
+    align-content: center;
     padding-left: 2em;
     padding-right: 2em;
     }
-
     .smallLinks {
         display: none;
     }
-
+.container {
+        display: flex;
+}
     .menuButton {
         display: none;
     }

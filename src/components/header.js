@@ -23,11 +23,14 @@ const { menuLinks, siteTitle } = useSiteMetadata()
                   key={link.name}
                   className={headerStyles.link}
                 >
-                  <a style={{ color: `white` }} href={link.link}>
+                  <Link to={link.link}>
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
+              <li className={headerStyles.link}>
+              <a href="https://cwd4q7wo.paperform.co/" target="_blank">Volunteer</a>
+              </li>
             </ul>
             <button onClick={() => setIsCollapsed(!isCollapsed)} className={headerStyles.menuButton}>
             <h2>Menu</h2>

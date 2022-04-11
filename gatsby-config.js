@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.juneteenthfreedomcelebration.com`,
     title: 'Juneteenth Freedom Celebration 2022',
       menuLinks:[
         {
@@ -14,11 +14,6 @@ module.exports = {
         {
           name:'Donate',
           link:'/donate'
-        },
-        {
-          name:'Volunteer',
-          target: '_blank',
-          link:'https://cwd4q7wo.paperform.co'
         }
       ]
   },
