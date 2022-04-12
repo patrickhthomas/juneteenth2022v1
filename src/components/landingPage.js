@@ -13,10 +13,9 @@ const LandingPage = () => {
     return (
         
         <div className={styles.container}>
-            <div>
-                <h1>
-                    Juneteenth Freedom Celebration, Esther Short Park - Vancouver, WA. 1pm thru 7pm - June 17th 2022.
-                </h1>
+            <div className={styles.eventInfo}>
+                <h1>Juneteenth Freedom Celebration</h1>
+                <p>June 17th from 1pm to 7pm at Esther Short Park in Downtown Vancouver, WA.</p>
             </div>
             <div className={styles.heroOne}>
                 <div>
@@ -134,7 +133,7 @@ const LandingPage = () => {
                 <p className={styles.freedomText}>Voting Registration booths, presence of  political action groups, Community organizations, etc.</p>
                 <div className={styles.thickImage}>
                 <StaticImage className={styles.freedomImage} src="../images/lwv.png" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
-                <StaticImage className={styles.freedomImage} src="../images/naacp.png" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
+                <StaticImage objectFit="contain" className={styles.freedomImage} src="../images/naacp.png" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
                 </div>
                 </div>
             </div>
