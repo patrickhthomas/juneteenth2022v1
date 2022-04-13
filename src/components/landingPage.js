@@ -132,8 +132,7 @@ const LandingPage = () => {
                 <div className={styles.freedomThick}>
                 <p className={styles.freedomText}>Voting Registration booths, presence of  political action groups, Community organizations, etc.</p>
                 <div className={styles.thickImage}>
-                <StaticImage className={styles.freedomImage} src="../images/lwv.png" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
-                <StaticImage objectFit="contain" className={styles.freedomImage} src="../images/naacp.png" alt="A young person is seen depositing a white envelope into a voting ballot box."/>
+                
                 </div>
                 </div>
             </div>
