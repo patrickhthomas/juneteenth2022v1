@@ -32,7 +32,6 @@ const { menuLinks, siteTitle } = useSiteMetadata()
               <div className={footerStyles.icons}>
               <StaticImage objectFit="contain" className={footerStyles.footerIcon} alt="Odyssey World International Logo" src='../images/owies.png' />
               <StaticImage objectFit="contain" className={footerStyles.footerIcon} alt="City of Vancouver Logo" src='../images/vancity.png' />
-              <StaticImage objectFit="contain" className={footerStyles.footerIcon} alt="City of Vancouver Parks and Recreation Logo" src='../images/parksandrec.png' />
               </div>
             </div>
           </nav>
