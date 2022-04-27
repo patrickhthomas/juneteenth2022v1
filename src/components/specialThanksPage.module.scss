@@ -4,9 +4,19 @@
     background-color: $white001;
     padding: 1em;
     border-radius: $border-radius;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.subtitle {
+    max-width: 100%;
+    padding-bottom: 1em;
+}
+
+.vendorImage {
+    max-width: 100%;
+    place-self: center;
+    border-radius: $border-radius;
 }
 
 .vendorSection {
@@ -45,14 +55,14 @@ margin-bottom: .2em;
     color: $blue003;
     text-decoration: underline;
     font-weight: 500;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
+    align-self: end;
 }
-
 .vendor h3 {
     color: $dark001;
     text-decoration: none;
     font-weight: 500;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
 }
 
 .freedom a:hover, .owies a:hover {
@@ -63,19 +73,7 @@ margin-bottom: .2em;
     transition: all .2s;
 }
 
-.thickImage {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: .5em;
-}
 
-.freedom {
-    padding-bottom: 2em;
-}
-
-.freedom img {
-    border-radius: .5em;
-}
 
 @media screen and (max-width: $small-break) {
 .image {

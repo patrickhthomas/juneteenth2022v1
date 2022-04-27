@@ -12,12 +12,16 @@ module.exports = {
           link:'/'
         },
         {
-          name:'Vendor Application',
-          link:'/vendors'
+          name:'2022 Vendor List',
+          link:'/special-thanks'
         },
         {
           name:'Donate',
           link:'/donate'
+        },
+        {
+          name:'Vendor Application',
+          link:'/vendors'
         }
       ]
   },

@@ -5,6 +5,11 @@ h2 {
     margin-bottom: 0;
 }
 
+.subtitle {
+    max-width: 100%;
+    padding-bottom: 1em;
+}
+
 .container {
     padding-top: 3em;
 }
@@ -50,16 +55,16 @@ margin-bottom: .2em;
 }
 
 .freedom a, .owies a {
-    color: $dark001;
+    color: $white001;
     text-decoration: underline;
-    font-weight: 500;
+    font-weight: 600;
     padding-bottom: 1em;
 }
 
 .freedom a:hover, .owies a:hover {
     color: $yellow002;
     text-decoration: underline;
-    font-weight: 500;
+    font-weight: 700;
     padding-bottom: .5em;
     transition: all .2s;
 }
@@ -88,9 +93,7 @@ margin-bottom: .2em;
 
 }
 @media screen and (min-width: $small-break) {
-.subtitle {
-    max-width: 100%;
-}
+
 
 
 .heroOne {
@@ -139,9 +142,7 @@ margin-bottom: .2em;
 }
 
 
-.freedomImage {
- flex: 1;
-}
+
 .freedomThin {
     display: flex;
     flex-flow: column nowrap;
@@ -149,14 +150,15 @@ margin-bottom: .2em;
 }
 
 .freedomThick {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 1em;
 }
 
 .thickImage {
-    display: flex;
-    flex-flow: row nowrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: end;
 }
 
 
