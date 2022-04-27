@@ -69,6 +69,21 @@ const SpecialThanksPage = () => {
 
             </div>
 
+            <h2 className={styles.subtitle}>Our 2022 Food Trucks</h2>
+
+            <div className={styles.vendorSection}>
+            <div className={styles.vendor}>
+                 
+                <StaticImage className={styles.vendorImage} src="https://scontent.fhio2-2.fna.fbcdn.net/v/t39.30808-6/242197190_177544741137099_5115445299777968785_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=akGrodn-YwkAX_pmkVs&_nc_ht=scontent.fhio2-2.fna&oh=00_AT8Znc70hkCcxW2MtaeTCjAshtYWsFOhe95xH26H-l-pbQ&oe=626F55DD" alt="A band member from Jujuba playing a hand drum"/>
+              
+                <a href="https://thephillycart.business.site" target="_blank"><h3>The Philly Cart</h3></a>
+            </div>
+
+            
+            
+
+            </div>
+
             <div className={styles.CTA}>
             <div className={styles.vendorText}>
                 <h2>Interested in Being a Vendor?</h2>
@@ -82,7 +97,6 @@ const SpecialThanksPage = () => {
                 <PrimaryButton path={donatePath}>Learn More</PrimaryButton>
             </div>
             </div>
-        <h2>Our 2022 Food Trucks</h2>
         </div>
         
         
