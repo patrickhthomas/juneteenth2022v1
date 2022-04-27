@@ -42,7 +42,7 @@ const LandingPage = () => {
             <h3>Freedom in Expression</h3>
             <div className={styles.freedom}>
                 <div className={styles.freedomThin}>
-                <StaticImage className={styles.freedomImage} src="../images/jujuba.jpg" alt="A band member from Jujuba playing a hand drum"/>
+                <StaticImage objectFit='cover' className={styles.freedomImage} src="../images/jujuba.jpg" alt="A band member from Jujuba playing a hand drum"/>
                 </div>
                 <div className={styles.freedomThick}>
                 <div>
