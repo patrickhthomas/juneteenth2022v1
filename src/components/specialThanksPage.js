@@ -1,6 +1,4 @@
 import * as React from "react"
-import Layout from "../components/layout"
-import { navigate } from "gatsby"
 import PrimaryButton from "./buttons/primaryButton"
 import * as styles from "../components/specialThanksPage.module.scss"
 import { StaticImage } from "gatsby-plugin-image"

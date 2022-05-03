@@ -1,10 +1,5 @@
 import * as React from "react"
-import Layout from "./layout"
-import { navigate } from "gatsby"
-import HeaderLogo from '../images/header-logo.svg'
-import PrimaryButton from "./buttons/primaryButton"
 import * as styles from "../components/vendorLandingPage.module.scss"
-import OwiesLogo from "../images/owiesWhiteLogo.svg"
 import { StaticImage } from "gatsby-plugin-image"
 import ExternalButton from './buttons/externalButton'
 

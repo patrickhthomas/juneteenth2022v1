@@ -53,10 +53,5 @@ module.exports = {
     __key: "images"
   },
   `gatsby-plugin-sass`,
-      {
-      resolve: `gatsby-plugin-paypal`,
-      options: {
-        clientId: `ARfEsnVe8LGHPiUhzLiisSypGrf08N5XP8QA9aXqFAaB6enU3Yj4IvI2NQ8_jWdt03_HQEqkRrhCESxV`,
-      }
-    },]
+]
 };

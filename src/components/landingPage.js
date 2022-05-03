@@ -1,6 +1,4 @@
 import * as React from "react"
-import Layout from "../components/layout"
-import { navigate } from "gatsby"
 import PrimaryButton from "./buttons/primaryButton"
 import * as styles from "../components/landingPage.module.scss"
 import { StaticImage } from "gatsby-plugin-image"
@@ -123,7 +121,7 @@ const LandingPage = () => {
             </div>
 
             <div className={styles.freedomContainer}>
-            <h3>Freedom to Particpate in Civic Engagement</h3>
+            <h3>Freedom to Participate in Civic Engagement</h3>
             <div className={styles.freedom}>
                 <div className={styles.freedomThin}>
                 <StaticImage className={styles.freedomImage} src="../images/civic.jpg" alt="A young person is seen depositing a white envelope into a voting ballot box."/>

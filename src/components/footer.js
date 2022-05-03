@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import * as footerStyles from "./footer.module.scss"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
-import Owies from '../images/owiesWhiteLogo.svg'
 import { StaticImage } from "gatsby-plugin-image"
 
 

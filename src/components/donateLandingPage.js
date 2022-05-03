@@ -1,23 +1,12 @@
 import * as React from "react"
-import Layout from "./layout"
-import { navigate } from "gatsby"
-import HeaderLogo from '../images/header-logo.svg'
-import PrimaryButton from "./buttons/primaryButton"
 import * as styles from "../components/donateLandingPage.module.scss"
-import OwiesLogo from "../images/owiesWhiteLogo.svg"
-import { StaticImage } from "gatsby-plugin-image"
-import PaypalDonation from "./paypalDonation"
-import { useState } from "react"
 import ExternalButton from "./buttons/externalButton"
 
 
 
 const LandingPage = () => {
-    const [inputValue, setInputValue] = useState('10')
-    const onChangeHandler = event => {
-        setInputValue(event.target.value);
-      }
-    const donationPath='/business-registration'
+
+
     return (
         
         <div className={styles.container}>

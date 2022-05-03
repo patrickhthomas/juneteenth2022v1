@@ -2,9 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import * as headerStyles from "./header.module.scss"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
-import LogoStar from '../images/starLogo.svg'
 import { useState } from "react"
-import { useEffect } from "react"
 
 
 
