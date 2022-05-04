@@ -46,7 +46,7 @@ const SpecialThanksPage = () => {
 
             <div className={styles.vendor}>
                  
-                <StaticImage className={styles.vendorImage} src="../images/ivg.png" alt="A band member from Jujuba playing a hand drum"/>
+                <StaticImage className={styles.vendorImage} src="../images/igv.png" alt="A band member from Jujuba playing a hand drum"/>
                 <a href="https://www.indivisiblegreatervancouver.org/" target="_blank"><h3>Indivisible Greater Vancouver</h3></a>
             </div>
 
