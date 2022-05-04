@@ -46,7 +46,7 @@ const SpecialThanksPage = () => {
 
             <div className={styles.vendor}>
                  
-                <StaticImage className={styles.vendorImage} src="https://images.squarespace-cdn.com/content/v1/625bae831ce3b123166ad369/ce18ab69-3b9c-4fb9-9b5c-43b7090aff7b/IGV+logo+very+small+%28header+use%29.jpg?format=1500w" alt="A band member from Jujuba playing a hand drum"/>
+                <StaticImage className={styles.vendorImage} src="../images/ivg.png" alt="A band member from Jujuba playing a hand drum"/>
                 <a href="https://www.indivisiblegreatervancouver.org/" target="_blank"><h3>Indivisible Greater Vancouver</h3></a>
             </div>
 
@@ -72,7 +72,7 @@ const SpecialThanksPage = () => {
             <div className={styles.vendorSection}>
             <div className={styles.vendor}>
                  
-                <StaticImage className={styles.vendorImage} src="https://scontent.fhio2-2.fna.fbcdn.net/v/t39.30808-6/242197190_177544741137099_5115445299777968785_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=akGrodn-YwkAX_pmkVs&_nc_ht=scontent.fhio2-2.fna&oh=00_AT8Znc70hkCcxW2MtaeTCjAshtYWsFOhe95xH26H-l-pbQ&oe=626F55DD" alt="A band member from Jujuba playing a hand drum"/>
+                <StaticImage className={styles.vendorImage} src="../images/phillycart.png" alt="A band member from Jujuba playing a hand drum"/>
               
                 <a href="https://thephillycart.business.site" target="_blank"><h3>The Philly Cart</h3></a>
             </div>
