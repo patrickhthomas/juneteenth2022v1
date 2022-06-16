@@ -27,6 +27,8 @@ export default function Layout({ children }) {
 
         <div className={layoutStyles.main}>
                   <div aria-hidden="true" className={layoutStyles.bannerContainer}><StaticImage className={layoutStyles.banner} src='../images/banner.jpg' alt="Juneteenth Freedom Celebration" /></div>
+                  <h1 className={layoutStyles.h1}>Juneteenth Freedom Celebration</h1>
+                  <h3 className={layoutStyles.h1}>June 17th from 1pm to 7pm at Esther Short Park in Downtown Vancouver, WA.</h3>
         <Header />
             
             <div className={layoutStyles.container}>

@@ -11,22 +11,13 @@ const LandingPage = () => {
     return (
         
         <div className={styles.container}>
-            <div className={styles.eventInfo}>
-                <h1>Juneteenth Freedom Celebration</h1>
-                <p>June 17th from 1pm to 7pm at Esther Short Park in Downtown Vancouver, WA.</p>
-            </div>
             <div className={styles.heroOne}>
                 <div>
                 <h2 className={styles.about}>About Juneteenth</h2>
                 <p className={styles.blurb}>Juneteenth is the holiday that marks when  American soldiers, by order of President Lincoln,  went to Texas to free the last African American slaves in June of 1865. It signifies America fulfilling its commitment to liberty. Although our backgrounds may differ, our histories are intertwined.  So let us take this day to stand united.</p>
                 </div>
             <div className={styles.owies}>
-            
-              <div className={styles.icons}>
-              <StaticImage objectFit="contain" className={styles.footerIcon} alt="Odyssey World International Logo" src='../images/owies.svg' />
-              <StaticImage objectFit="contain" className={styles.footerIcon} alt="City of Vancouver Logo" src='../images/vancity.png' />
-              </div>
-              <p>This free-to-the-public event is organized by <a href="https://www.odysseyworld.org/" target="_blank">Odyssey World International Education Services</a>, with support from the City of Vancouver and the Vancouver Parks and Rec.</p>
+              <StaticImage objectFit="contain" className={styles.footerIcon} alt="Odyssey World International Logo" src='../images/unnamed.jpg' />
             </div>
             </div>
         
