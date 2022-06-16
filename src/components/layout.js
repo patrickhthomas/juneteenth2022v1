@@ -26,9 +26,7 @@ export default function Layout({ children }) {
         </Helmet>
 
         <div className={layoutStyles.main}>
-                  <div aria-hidden="true" className={layoutStyles.bannerContainerLG}><StaticImage className={layoutStyles.bannerLG} src='../images/bannerLG.svg' alt="Juneteenth Freedom Celebration" /></div>
-                  <div aria-hidden="true" className={layoutStyles.bannerContainerMD}><StaticImage className={layoutStyles.bannerMD} src='../images/bannerMD.svg' alt="Juneteenth Freedom Celebration" /></div>
-                  <div aria-hidden="true" className={layoutStyles.bannerContainerSM}><StaticImage className={layoutStyles.bannerSM} src='../images/bannerSM.svg' alt="Juneteenth Freedom Celebration" /></div>
+                  <div aria-hidden="true" className={layoutStyles.bannerContainer}><StaticImage className={layoutStyles.banner} src='../images/banner.jpg' alt="Juneteenth Freedom Celebration" /></div>
         <Header />
             
             <div className={layoutStyles.container}>

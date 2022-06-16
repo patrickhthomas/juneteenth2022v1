@@ -31,7 +31,7 @@ const { menuLinks, siteTitle } = useSiteMetadata()
               </li>
             </ul>
             <button onClick={() => setIsCollapsed(!isCollapsed)} className={headerStyles.menuButton}>
-            <h2>Menu</h2>
+            <h3>Menu</h3>
             </button>
           
           </nav>

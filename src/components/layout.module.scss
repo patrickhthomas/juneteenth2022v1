@@ -7,43 +7,10 @@ html {
     background-size: contain;
 }
 
-.bannerContainerLG {
-
-    display: none;
-    justify-content: center;
-    height: auto;
-}
-
-.bannerContainerMD {
-
-    display: none;
-    justify-content: center;
-    height: auto;
-}
-
-.bannerContainerSM {
-
+.bannerContainer {
     display: flex;
-    justify-content: center;
-    height: auto;
-}
-
-.bannerLG {
     width: 100%;
-    margin: auto;
-    display: none;
-
-}
-
-.bannerMD {
-    width: 100%;
-    margin: auto;
-    display: none;
-}
-
-.bannerSM {
-    width: 100%;
-    margin: auto;
+    height: 10em;
 }
 
 
@@ -99,30 +66,6 @@ html {
 }
 
 @media screen and (min-width: $medium-break) {
-.banner {
-    width: 100%;
-}
-.bannerContainerSM {
-    display: none;
-}
-
-.bannerSM {
-    display: none;
-}
-
-.bannerContainerMD {
-    display: none;
-}
-.bannerMD {
-    display: none;
-}
-
-.bannerContainerLG {
-    display: flex;
-}
-.bannerLG {
-    display: block;
-}
 
 }
 
@@ -133,29 +76,6 @@ html {
         margin: auto;
         max-width: 1260px;
     }
-    .banner {
-        width: 100%;
-    }
-.bannerContainerSM {
-    display: none;
-}
 
-.bannerSM {
-    display: none;
-}
-
-.bannerContainerMD {
-    display: none;
-}
-.bannerMD {
-    display: none;
-}
-
-.bannerContainerLG {
-    display: flex;
-}
-.bannerLG {
-    display: block;
-}
 }
 

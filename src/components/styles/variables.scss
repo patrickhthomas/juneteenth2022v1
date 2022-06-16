@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Inline&display=swap');
 
 $dark001: #201C1D;
 $dark002: #3e3a3a;
@@ -22,7 +22,7 @@ $white002: #ffffff;
 $blue001: #253C8E;
 $blue002: #1a2a61;
 $blue003: #4265d7;
-$blue004: #131930;
+$blue004: #131727;
 
 $small-break: 650px;
 $medium-break: 800px;
@@ -63,7 +63,7 @@ button {
 
 @mixin brand001 {
     font-size: 60px;
-    font-family: "Basteleur";
+    font-family:'Bungee Inline', cursive;
     font-weight: bolder;
     font-style: normal;
     text-decoration: none;
@@ -73,7 +73,7 @@ button {
 
 @mixin brand002 {
     font-size: 32.5px;
-    font-family: "Basteleur";
+    font-family: 'Bungee Inline', cursive;
     font-weight: bolder;
     font-style: normal;
     text-decoration: none;
@@ -81,7 +81,7 @@ button {
 
 @mixin h1 {
     font-size: 48px;
-    font-family: 'Lato';
+    font-family: 'Bungee Inline', cursive;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: .03rem;
@@ -90,7 +90,7 @@ button {
 
 @mixin h2 {
     font-size: 30px;
-    font-family: 'Lato';
+    font-family: 'Bungee Inline', cursive;
     font-weight: 500;
     letter-spacing: .05rem;
     font-style: normal;
@@ -100,7 +100,7 @@ button {
 
 @mixin body001 {
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Abel', sans-serif;
     font-weight: 500;
     font-style: normal;
     line-height: 140%;
@@ -109,7 +109,7 @@ button {
 
 @mixin h3 {
     font-size: 20px;
-font-family: 'Lato';
+font-family:'Bungee Inline', cursive;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: .05rem;
